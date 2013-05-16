@@ -44,5 +44,5 @@ The easiest way to install the package is to use [Package Control](http://wbond.
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `NSIS`
+* Unzip the files and rename the folder to `NSIS-Sublime-Text`
 * Copy the folder to your Sublime Text 2 `Packages` directory
