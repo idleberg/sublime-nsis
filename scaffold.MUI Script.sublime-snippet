@@ -27,7 +27,6 @@ Section "${6:section_name}" ${7:section_index}
 
 SectionEnd
 
-
 ; Descriptions -----------------------------
 LangString DESC_${7:section_index} \${LANG_${5:section_index}} "${9}"
 
