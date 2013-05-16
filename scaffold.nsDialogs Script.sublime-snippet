@@ -12,12 +12,12 @@ OutFile "${2:file_name}.exe"
 RequestExecutionLevel ${3:user}
 
 ; Pages ------------------------------------
-Page custom ${4:nsdialog_page}
+Page custom "${4:nsdialog_page}" "${4:nsdialog_page}_validation"
 
 ; Variables --------------------------------
 ${5}
 
-Function ${4:nsdialog_page}
+Function "${4:nsdialog_page}"
 
 	nsDialogs::Create 1018
 	Pop \$0
@@ -25,6 +25,12 @@ Function ${4:nsdialog_page}
 	${6:# your code here}
 
 	nsDialogs::Show
+
+FunctionEnd
+
+Function "${4:nsdialog_page}_validation"
+
+	${6:# your code here}
 
 FunctionEnd
 

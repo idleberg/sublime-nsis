@@ -11,7 +11,7 @@ InstallDir "\$PROGRAMFILES\\${4:install_directory}"
 
 ; Includes ---------------------------------
 ReserveFile "\${NSISDIR}\Plugins\InstallOptions.dll"
-ReserveFile "${5:iopage_file}.ini"
+ReserveFile "${5:ioFile}.ini"
 
 ; Pages ------------------------------------
 Page custom "${6:iopage}" "${6:iopage}_validation" ": ${7:iopage_caption}"
@@ -29,14 +29,14 @@ SectionEnd
 Function .onInit
   
   InitPluginsDir
-  File "/oname=\$PLUGINSDIR\\${5:iopage_file}.ini" "${5:iopage_file}.ini"
+  File "/oname=\$PLUGINSDIR\\${5:ioFile}.ini" "${5:ioFile}.ini"
   
 FunctionEnd
 
 Function "${6:iopage}"
 
  	Push \$R0
-	InstallOptions::dialog "\$PLUGINSDIR\\${5:iopage_file}.ini"
+	InstallOptions::dialog "\$PLUGINSDIR\\${5:ioFile}.ini"
     Pop \$R0
   
 	Pop \$R0
