@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-; https://github.com/idleberg/NSIS.Sublime
+; https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Includes ---------------------------------
 !include "MUI2.nsh"
