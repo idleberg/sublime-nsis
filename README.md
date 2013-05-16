@@ -35,7 +35,7 @@ Also included in this package are snippets for scaffolding different types of em
 * Snippets
     * Basic Script
     * MUI2 Script
-    * nsDialogs Scrips
+    * nsDialogs Scripts
 
 ## Installation
 
