@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+; https://github.com/idleberg/NSIS.Sublime
+
+; Includes ---------------------------------
+!include nsDialogs.nsh
+!include LogicLib.nsh
+
+; Settings ---------------------------------
+Name "${1:installer_name}"
+OutFile "${2:file_name}.exe"
+RequestExecutionLevel ${3:user}
+
+; Pages ------------------------------------
+Page custom ${4:nsdialog_page}
+
+; Variables --------------------------------
+${5}
+
+Function ${4:nsdialog_page}
+
+	nsDialogs::Create 1018
+	Pop \$0
+
+	${6:# your code here}
+
+	nsDialogs::Show
+
+FunctionEnd
+
+; Sections ---------------------------------
+Section "${7:section_name}" ${8:section_index}
+
+  ${9:# your code here}
+
+SectionEnd
+
+]]></content>
+	<tabTrigger>scaffold.nsDialogs</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>

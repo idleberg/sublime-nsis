@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+; https://github.com/idleberg/NSIS.Sublime
+
+; Settings ---------------------------------
+Name "${1:installer_name}"
+OutFile "${2:file_name}.exe"
+RequestExecutionLevel ${3:user}
+
+InstallDir "\$PROGRAMFILES\\${4:install_directory}"
+
+; Pages ------------------------------------
+Page components
+Page directory
+Page instfiles
+
+; Sections ---------------------------------
+Section "${5:section_name}"
+
+	${6:# your code here}
+
+SectionEnd
+
+; Functions --------------------------------
+${7}
+]]></content>
+	<tabTrigger>scaffold.Basic</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>
