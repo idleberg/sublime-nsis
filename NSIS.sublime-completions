@@ -398,7 +398,8 @@
                 { "trigger": "LogText", "contents": "LogText \"${1:text}\"" },
                 { "trigger": "MessageBox", "contents": "MessageBox ${1:mb_option_list} \"${2:messagebox_text}\"" },
                 { "trigger": "MiscButtonText", "contents": "MiscButtonText \"${1:back_button_text}\" \"${2:next_button_text}\" \"${3:cancel_button_text}\" \"${4:close_button_text}\"" },
-                { "trigger": "Name", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"" },
+                { "trigger": "Name &&", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"" },
+                { "trigger": "Name", "contents": "Name \"${1:name}\"" },
                 { "trigger": "Nop", "contents": "Nop" },
                 { "trigger": "OutFile", "contents": "OutFile \"${1:file_name}.exe\"" },
                 { "trigger": "Page /ENABLECANCEL", "contents": "Page ${1:internal_page_type} ${2:[pre_function]} ${3:[show_function]} ${4:[leave_function]} /ENABLECANCEL" },
@@ -1649,6 +1650,8 @@
                 { "trigger": "WM_WTSSESSION_CHANGE", "contents": "\\${WM_WTSSESSION_CHANGE}" },
                 { "trigger": "WM_XBUTTONDBLCLK", "contents": "\\${WM_XBUTTONDBLCLK}" },
                 { "trigger": "WM_XBUTTONDOWN", "contents": "\\${WM_XBUTTONDOWN}" },
-                { "trigger": "WM_XBUTTONUP", "contents": "\\${WM_XBUTTONUP}" }
+                { "trigger": "WM_XBUTTONUP", "contents": "\\${WM_XBUTTONUP}" },
+
+                { /* It ain't over 'til the fat lady sings */ }
         ]
 }
