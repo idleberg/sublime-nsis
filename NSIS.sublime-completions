@@ -352,7 +352,7 @@
                 { "trigger": "FindNext", "contents": "FindNext \\$${1:handle} \\$${2:user_var}" },
                 { "trigger": "FindWindow", "contents": "FindWindow \\$${1:user_var} \"${2:windowclass}\"" },
                 { "trigger": "FlushINI", "contents": "FlushINI \"${1:ini_filename}\"" },
-                { "trigger": "Function", "contents": "Function ${1:function_name}\n\t${2}\nFunctionEnd" },
+                { "trigger": "Function", "contents": "Function \"${1:function_name}\"\n\t${2}\nFunctionEnd" },
                 { "trigger": "FunctionEnd", "contents": "FunctionEnd" },
                 { "trigger": "GetCurInstType", "contents": "GetCurInstType \\$${1:user_var}" },
                 { "trigger": "GetCurrentAddress", "contents": "GetCurrentAddress \\$${1:user_var}" },
@@ -460,7 +460,7 @@
                 { "trigger": "RMDir /REBOOTOK", "contents": "RMDir /REBOOTOK \"${1:directory_name}\"" },
                 { "trigger": "RMDir", "contents": "RMDir \"${1:directory_name}\"" },
                 { "trigger": "SearchPath", "contents": "SearchPath \\$${1:user_var} \"${2:filename}\"" },
-                { "trigger": "Section", "contents": "Section ${1:section_name} ${2:section_index_output}\n\t${3}\nSectionEnd" },
+                { "trigger": "Section", "contents": "Section \"${1:section_name}\" ${2:section_index_output}\n\t${3}\nSectionEnd" },
                 { "trigger": "SectionEnd", "contents": "SectionEnd" },
                 { "trigger": "SectionGetFlags", "contents": "SectionGetFlags \\${${1:section_index}} \\$${2:user_var}" },
                 { "trigger": "SectionGetInstTypes", "contents": "SectionGetInstTypes \\${${1:section_index}} \\$${2:user_var}" },
@@ -733,6 +733,15 @@
                 { "trigger": "Switch", "contents": "\\${Switch} \\$${1:var}\n\t${4}\n\\${EndSwitch}" },
                 { "trigger": "Unless", "contents": "\\${Select} \\$${1:var}\n\t${4}\n\\${EndUnless}" },
                 { "trigger": "While", "contents": "\\${While} ${1:condition}\n\t${4}\n\\${EndWhile}" },
+
+                // Memento.nsh
+                { "trigger": "MEMENTO_REGISTRY_KEY", "contents": "!define MEMENTO_REGISTRY_KEY \"${1:Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MyProgram\"}" },
+                { "trigger": "MEMENTO_REGISTRY_ROOT", "contents": "!define MEMENTO_REGISTRY_ROOT ${1:HKLM}" },
+                { "trigger": "MementoSection", "contents": "\\${MementoSection} \"${1:section_name}\" ${2:section_index}\n\t${3}\n\\${MementoSectionEnd}" },
+                { "trigger": "MementoSectionEnd", "contents": "\\${MementoSectionEnd}" },
+                { "trigger": "MementoSectionRestore", "contents": "\\${MementoSectionRestore}" },
+                { "trigger": "MementoSectionSave", "contents": "\\${MementoSectionSave}" },
+                { "trigger": "MementoUnselectedSection", "contents": "\\${MementoUnselectedSection} ${1:section_name} ${2:section_index}" },
 
                 // MUI2.nsh
                 { "trigger": "define MUI_ABORTWARNING", "contents": "!define MUI_ABORTWARNING" },
