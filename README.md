@@ -26,8 +26,8 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * FileFunc.nsh
     * WordFunc.nsh
     * LogicLib.nsh
-    * Modern.nsh
     * Memento.nsh
+    * Modern.nsh
     * Sections.nsh
     * WinMessages.nsh
     * WinVer.nsh
