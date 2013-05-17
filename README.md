@@ -2,7 +2,7 @@
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46.
 
-Also included in this package are snippets for scaffolding different types of empty scripts.
+Also included in this package are snippets for scaffolding different types of empty scripts and to insert code blocks.
 
 ### Features
 * all inbuilt NSIS commands, variables, defines and constants
@@ -32,11 +32,15 @@ Also included in this package are snippets for scaffolding different types of em
     * WinVer.nsh
     * x64.nsh
 * Includes, Graphics, UIs
-* Scaffolding Snippets
+* Scaffolding Snippets:
     * Basic Script
     * InstallOptions Script
     * MUI2 Script
     * nsDialogs Script
+* Code Snippets:
+    * insert help dialog
+    * insert language dialog
+    * insert version information
 
 ## Installation
 
