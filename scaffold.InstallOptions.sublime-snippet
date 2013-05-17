@@ -4,24 +4,25 @@
 
 ; Settings ---------------------------------
 Name "${1:installer_name}"
-OutFile "${2:file_name}.exe"
+OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:user}
-
-InstallDir "\$PROGRAMFILES\\${4:install_directory}"
+InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
 ; Includes ---------------------------------
 ReserveFile "\${NSISDIR}\Plugins\InstallOptions.dll"
-ReserveFile "${5:ioFile}.ini"
+ReserveFile "${5:\${NSISDIR\}\Examples\InstallOptions\test}.ini"
 
 ; Pages ------------------------------------
-Page custom "${6:iopage}" "${6:iopage}_validation" ": ${7:iopage_caption}"
+Page custom "${6:iopage}" "${7:${6:iopage}_validation}" ": ${8:iopage_caption}"
+Page components
+Page directory
 Page instfiles
 
 
 ; Sections ---------------------------------
-Section "${9:section_name}" ${10:section_index}
+Section "${11:section_name}" ${12:section_index}
 
-	${11:# your code here}
+	${13:# your code here}
 
 SectionEnd
 
@@ -29,23 +30,23 @@ SectionEnd
 Function .onInit
   
   InitPluginsDir
-  File "/oname=\$PLUGINSDIR\\${5:ioFile}.ini" "${5:ioFile}.ini"
+  File "/oname=\$PLUGINSDIR\\${9:ioFile}.ini" "${5}.ini"
   
 FunctionEnd
 
-Function "${6:iopage}"
+Function "${6}"
 
  	Push \$R0
-	InstallOptions::dialog "\$PLUGINSDIR\\${5:ioFile}.ini"
+	InstallOptions::dialog "\$PLUGINSDIR\\${9}.ini"
     Pop \$R0
   
 	Pop \$R0
 
 FunctionEnd
 
-Function "${6:iopage}_validation"
+Function "${7}"
 
- 	${8:# your code here}
+ 	${10:# your code here}
 
 FunctionEnd
 ]]></content>
