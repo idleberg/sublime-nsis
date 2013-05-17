@@ -22,11 +22,12 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * System
     * UserInfo
     * VPatch
-* "Useful Headers":
+* Macros:
     * FileFunc.nsh
     * WordFunc.nsh
     * LogicLib.nsh
     * Modern.nsh
+    * Memento.nsh
     * Sections.nsh
     * WinMessages.nsh
     * WinVer.nsh
