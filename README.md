@@ -48,7 +48,10 @@ Also included are snippets for scaffolding different types of empty scripts and 
 
 The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control).
 
-### Download Manually
+### Windows Installer
+To build yourself an installer, download `installer.nsi` from the scripts folder and compile it.
+
+### Manual installation
 
 * Download the files using the GitHub .zip download option
 * Unzip the files to your Sublime Text 2 `Packages/User` directory
