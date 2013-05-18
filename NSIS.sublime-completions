@@ -972,16 +972,19 @@
                 { "trigger": "Dialer::GetConnectedState", "contents": "Dialer::GetConnectedState" },
 
                 // InstallOptions.dll
-                { "trigger": "!insertmacro INSTALLOPTIONS_DISPLAY ", "contents": "!insertmacro INSTALLOPTIONS_DISPLAY \"${1:file}.ini\"" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_DISPLAY", "contents": "!insertmacro INSTALLOPTIONS_DISPLAY \"${1:file}.ini\"" },
                 { "trigger": "!insertmacro INSTALLOPTIONS_EXTRACT", "contents": "!insertmacro INSTALLOPTIONS_EXTRACT \"${1:file}.ini\"" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT ", "contents": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_INITDIALOG  ", "contents": "!insertmacro INSTALLOPTIONS_INITDIALOG  \"${1:file}.ini\"" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_READ ", "contents": "!insertmacro INSTALLOPTIONS_READ \\$${1:var} \"${2:file}.ini\" \"${3:Field }\" \"${4:key}\"" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_READ_UNCONVERT ", "contents": "!insertmacro INSTALLOPTIONS_READ_UNCONVERT" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_SHOW ", "contents": "!insertmacro INSTALLOPTIONS_SHOW" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_UNFUNCTION_WRITE_CONVERT ", "contents": "!insertmacro INSTALLOPTIONS_UNFUNCTION_WRITE_CONVERT" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_WRITE  ", "contents": "!insertmacro INSTALLOPTIONS_WRITE  \"${1:file}.ini\" \"${2:Field }\" \"${4:key}\" \"${1:value}\"" },
-                { "trigger": "!insertmacro INSTALLOPTIONS_WRITE_CONVERT ", "contents": "!insertmacro INSTALLOPTIONS_WRITE_CONVERT" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT", "contents": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_INITDIALOG", "contents": "!insertmacro INSTALLOPTIONS_INITDIALOG  \"${1:file}.ini\"" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_READ", "contents": "!insertmacro INSTALLOPTIONS_READ \\$${1:var} \"${2:file}.ini\" \"${3:Field }\" \"${4:key}\"" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_READ_UNCONVERT", "contents": "!insertmacro INSTALLOPTIONS_READ_UNCONVERT" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_SHOW", "contents": "!insertmacro INSTALLOPTIONS_SHOW" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_UNFUNCTION_WRITE_CONVERT", "contents": "!insertmacro INSTALLOPTIONS_UNFUNCTION_WRITE_CONVERT" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_WRITE", "contents": "!insertmacro INSTALLOPTIONS_WRITE  \"${1:file}.ini\" \"${2:Field }\" \"${4:key}\" \"${1:value}\"" },
+                { "trigger": "!insertmacro INSTALLOPTIONS_WRITE_CONVERT", "contents": "!insertmacro INSTALLOPTIONS_WRITE_CONVERT" },
+                { "trigger": "InstallOptions::initDialog /NOUNLOAD", "contents": "InstallOptions::initDialog /NOUNLOAD \"${1:file}.ini\"" },
+                { "trigger": "InstallOptions::initDialog", "contents": "InstallOptions::initDialog \"${1:file}.ini\"" },
+                { "trigger": "InstallOptions::show", "contents": "InstallOptions::show" },
 
                 // LangDLL.dll
                 { "trigger": "LangDLL::LangDialog", "contents": "LangDLL::LangDialog \"${1:title}\" \"${2:text}\"" },
