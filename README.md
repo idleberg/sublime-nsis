@@ -23,21 +23,22 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * UserInfo
     * VPatch
 * Macros:
-    * FileFunc.nsh
-    * WordFunc.nsh
-    * LogicLib.nsh
-    * Memento.nsh
-    * Modern.nsh
-    * Sections.nsh
-    * WinMessages.nsh
-    * WinVer.nsh
-    * x64.nsh
+    * FileFunc
+    * WordFunc
+    * LogicLib
+    * Memento
+    * Modern
+    * Sections
+    * WinMessages
+    * WinVer
+    * x64
 * Includes, Graphics, UIs
 * Scaffolding Snippets:
     * Basic Script
     * InstallOptions Script
     * MUI2 Script
     * nsDialogs Script
+    * nsDialogs MUI2 Script
 * Code Snippets:
     * insert help dialog
     * insert language dialog
