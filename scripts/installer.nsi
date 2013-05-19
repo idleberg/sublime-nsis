@@ -26,7 +26,7 @@ Section "Basic Completions" NSIS-Sublime-Text
 
 SectionEnd
 
-Section "More Completions" NSIS-Sublime-Text-Addons
+Section "Plug-in Completions" NSIS-Sublime-Text-Addons
 
   InetLoad::load "https://github.com/idleberg/NSIS-Sublime-Text-Addons/archive/master.zip" "$PLUGINSDIR\NSIS-Sublime-Text-Addons.zip"
   ZipDLL::extractall "$PLUGINSDIR\NSIS-Sublime-Text-Addons.zip" "$INSTDIR"
