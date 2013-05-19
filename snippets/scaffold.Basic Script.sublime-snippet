@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-; https://github.com/idleberg/NSIS-Sublime-Text
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Settings ---------------------------------
 Name "${1:installer_name}"
@@ -23,6 +23,6 @@ SectionEnd
 ; Functions --------------------------------
 ${7}
 ]]></content>
-	<tabTrigger>scaffold.Basic</tabTrigger>
+	<tabTrigger>scaffold:Basic</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

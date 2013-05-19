@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-; https://github.com/idleberg/NSIS-Sublime-Text
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Includes ---------------------------------
 !include MUI2.nsh
@@ -36,6 +36,6 @@ LangString DESC_${7} \${LANG_${5}} "${9:section_description}"
 ; Functions --------------------------------
 ${10}
 ]]></content>
-	<tabTrigger>scaffold.MUI</tabTrigger>
+	<tabTrigger>scaffold:ModernUI</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

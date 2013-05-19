@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-; https://github.com/idleberg/NSIS-Sublime-Text
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Includes ---------------------------------
 !include nsDialogs.nsh
@@ -57,6 +57,6 @@ LangString DESC_${12} \${LANG_${8}} "${14:section_description}"
 	!insertmacro MUI_DESCRIPTION_TEXT \${${12}} \$(DESC_${12})
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 ]]></content>
-	<tabTrigger>scaffold.nsDialogs.MUI</tabTrigger>
+	<tabTrigger>scaffold:nsDialogs.ModernUI</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

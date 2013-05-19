@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-; https://github.com/idleberg/NSIS-Sublime-Text
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Includes ---------------------------------
 !include nsDialogs.nsh
@@ -46,6 +46,6 @@ Section "${10:section_name}" ${11:section_index}
 
 SectionEnd
 ]]></content>
-	<tabTrigger>scaffold.nsDialogs</tabTrigger>
+	<tabTrigger>scaffold:nsDialogs</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>
