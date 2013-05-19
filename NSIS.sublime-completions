@@ -692,8 +692,8 @@
 
                 // LogicLib.nsh
                 { "trigger": "${Abort}", "contents": "\\${Abort}" },
-                { "trigger": "${AndIf}", "contents": "\\${AndIf} ${1:condition}\n\t${2)" },
-                { "trigger": "${AndIfNot}", "contents": "\\${AndIfNot} ${1:condition}\n\t${2)" },
+                { "trigger": "${AndIf}", "contents": "\\${AndIf} ${1:condition}" },
+                { "trigger": "${AndIfNot}", "contents": "\\${AndIfNot} ${1:condition}" },
                 { "trigger": "${Case}", "contents": "\\${Case} ${1)" },
                 { "trigger": "${Cmd}", "contents": "\\${Cmd} `${1}`" },
                 { "trigger": "${Do..Loop}", "contents": "\\${Do}\n\t${1}\n\\${Loop}" },
@@ -720,7 +720,7 @@
                 { "trigger": "${IfThenNot}", "contents": "\\${IfThenNot} ${1:condition} \\${|} ${4:command} \\${|}" },
                 { "trigger": "${Loop}", "contents": "\\${Loop}" },
                 { "trigger": "${Next}", "contents": "\\${Next}" },
-                { "trigger": "${OrIfNot}", "contents": "\\${OrIfNot} ${1:condition}\n\t${2)" },
+                { "trigger": "${OrIfNot}", "contents": "\\${OrIfNot} ${1:condition}" },
                 { "trigger": "${RebootFlag}", "contents": "\\${RebootFlag}" },
                 { "trigger": "${SectionIsBold}", "contents": "\\${SectionIsBold} \\${${1}}" },
                 { "trigger": "${SectionIsExpanded}", "contents": "\\${SectionIsExpanded} \\${${1}}" },
