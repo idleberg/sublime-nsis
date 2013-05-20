@@ -46,7 +46,7 @@ Also included are snippets for scaffolding different types of empty scripts and 
 
 ## Installation
 
-The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control), but the package has is still pending.
+The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control), but the package is still pending.
 
 ### Windows Installer
 To build yourself an installer, download `installer.nsi` from the scripts folder and compile it.
