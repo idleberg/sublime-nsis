@@ -6,6 +6,7 @@
                 // Compiler Utility Commands
                 { "trigger": "!addincludedir", "contents": "!addincludedir \"${1:directory}\"" },
                 { "trigger": "!addplugindir", "contents": "!addplugindir \"${1:directory}\"" },
+                { "trigger": "!appendfile /CHARSET", "contents": "!appendfile /CHARSET=${1:charset} \"${2:file}\" \"${3:text}\"" }, // NSIS 3.0a
                 { "trigger": "!appendfile", "contents": "!appendfile \"${1:file}\" \"${2:text}\"" },
                 { "trigger": "!cd", "contents": "!cd \"${1:new_path}\"" },
                 { "trigger": "!delfile", "contents": "!delfile \"${1:file}\"" },
@@ -13,6 +14,7 @@
                 { "trigger": "!error", "contents": "!error \"${1:message}\"" },
                 { "trigger": "!execute", "contents": "!execute \"${1:command}\"" },
                 { "trigger": "!finalize", "contents": "!finalize \"${1:command}\"" },
+                { "trigger": "!getdllversion", "contents": "!getdllversion \"${1:localfilename}\" \"${1:define_basename}\"" }, // NSIS 3.0a
                 { "trigger": "!include", "contents": "!include \"${1:file}\"" },
                 { "trigger": "!packhdr", "contents": "!packhdr \"${1:tempfile}\" \"${2:command}\"" },
                 { "trigger": "!system", "contents": "!system \"${1:command}\"" },
@@ -42,20 +44,22 @@
                 { "trigger": "!undef", "contents": "!undef ${1:gflag}" },
 
                 // Predefines
+                { "trigger": "${__COUNTER__}", "contents": "\\${__COUNTER__}" }, // NSIS 3.0a
                 { "trigger": "${__DATE__}", "contents": "\\${__DATE__}" },
                 { "trigger": "${__FILE__}", "contents": "\\${__FILE__}" },
                 { "trigger": "${__FILEDIR__}", "contents": "\\${__FILEDIR__}" },
                 { "trigger": "${__FUNCTION__}", "contents": "\\${__FUNCTION__}" },
                 { "trigger": "${__GLOBAL__}", "contents": "\\${__GLOBAL__}" },
                 { "trigger": "${__LINE__}", "contents": "\\${__LINE__}" },
+                { "trigger": "${__MACRO__}", "contents": "\\${__MACRO__}" }, // NSIS 3.0a
                 { "trigger": "${__PAGEEX__}", "contents": "\\${__PAGEEX__}" },
                 { "trigger": "${__SECTION__}", "contents": "\\${__SECTION__}" },
                 { "trigger": "${__TIME__}", "contents": "\\${__TIME__}" },
                 { "trigger": "${__TIMESTAMP__}", "contents": "\\${__TIMESTAMP__}" },
                 { "trigger": "${__UNINSTALL__}", "contents": "\\${__UNINSTALL__}" },
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
-                { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
+                { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
 
                 // Variables
                 { "trigger": "$ADMINTOOLS", "contents": "\\$ADMINTOOLS" },
@@ -105,6 +109,7 @@
                 // NSIS Command Helpers
                 { "trigger": "/AUTOADD", "contents": "/AUTOADD" },
                 { "trigger": "/BRANDING", "contents": "/BRANDING" },
+                { "trigger": "/CHARSET", "contents": "/CHARSET" }, // NSIS 3.0a
                 { "trigger": "/CHECKNOSHORTCUTS", "contents": "/CHECKNOSHORTCUTS" },
                 { "trigger": "/COMPONENTSONLYONCUSTOM", "contents": "/COMPONENTSONLYONCUSTOM" },
                 { "trigger": "/CUSTOMSTRING", "contents": "/CUSTOMSTRING=${1:string}" },
@@ -130,7 +135,7 @@
                 { "trigger": "/NOICON", "contents": "/NOICON" },
                 { "trigger": "/NOIEPROXY", "contents": "/NOIEPROXY" },
                 { "trigger": "/NONFATAL", "contents": "/NONFATAL" },
-                { "trigger": "/ONAME=", "contents": "ONAME=${1:name}" }, // no leading slash!
+                { "trigger": "/ONAME=", "contents": "/ONAME=${1:name}" },
                 { "trigger": "/REBOOTOK", "contents": "/REBOOTOK" },
                 { "trigger": "/REDEF", "contents": "/REDEF" },
                 { "trigger": "/RESIZETOFIT", "contents": "/RESIZETOFIT" },
@@ -412,6 +417,8 @@
                 { "trigger": "LogSet off", "contents": "LogSet off" },
                 { "trigger": "LogSet on", "contents": "LogSet on" },
                 { "trigger": "LogText", "contents": "LogText \"${1:text}\"" },
+                { "trigger": "ManifestDPIAware", "contents": "ManifestDPIAware ${1:notset|true|false}" }, // NSIS 3.0a
+                { "trigger": "ManifestSupportedOS", "contents": "ManifestSupportedOS ${1:none|all|WinVista|Win7|Win8|{GUID}}" }, // NSIS 3.0a
                 { "trigger": "MessageBox", "contents": "MessageBox ${1:mb_option_list} \"${2:messagebox_text}\"" },
                 { "trigger": "MiscButtonText", "contents": "MiscButtonText \"${1:back_button_text}\" \"${2:next_button_text}\" \"${3:cancel_button_text}\" \"${4:close_button_text}\"" },
                 { "trigger": "Name &&", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"" },
@@ -543,6 +550,7 @@
                 { "trigger": "StrLen", "contents": "StrLen \\$${1:user_var} \"${2:str}\"" },
                 { "trigger": "SubCaption", "contents": "SubCaption ${1:page_number} \"${2:subcaption}\"" },
                 { "trigger": "TargetMinimalOS", "contents": "TargetMinimalOS ${1:windows_version}" },
+                { "trigger": "Unicode", "contents": "Unicode ${1:true|false}" }, // NSIS 3.0a
                 { "trigger": "UninstallButtonText", "contents": "UninstallButtonText \"${1:text}\"" },
                 { "trigger": "UninstallCaption", "contents": "UninstallCaption \"${1:caption}\"" },
                 { "trigger": "UninstallIcon", "contents": "UninstallIcon \"${1:icon}.ico\"" },
@@ -577,6 +585,7 @@
                 { "trigger": "VIAddVersionKey LegalTrademarks", "contents": "VIAddVersionKey \"LegalTrademarks\" \"${1:value}\"" },
                 { "trigger": "VIAddVersionKey ProductName", "contents": "VIAddVersionKey \"ProductName\" \"${1:value}\"" },
                 { "trigger": "VIAddVersionKey", "contents": "VIAddVersionKey \"${1:keyname}\" \"${2:value}\"" },
+                { "trigger": "VIFileVersion", "contents": "VIFileVersion \"${1:version_string}\"" }, // NSIS 3.0a
                 { "trigger": "VIProductVersion", "contents": "VIProductVersion \"${1:version_string}\"" },
                 { "trigger": "WindowIcon off", "contents": "WindowIcon off" },
                 { "trigger": "WindowIcon on", "contents": "WindowIcon on" },
