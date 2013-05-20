@@ -60,6 +60,7 @@
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
+                { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
                 // Variables
                 { "trigger": "$ADMINTOOLS", "contents": "\\$ADMINTOOLS" },
@@ -549,7 +550,6 @@
                 { "trigger": "StrCpy", "contents": "StrCpy \\$${1:user_var} \"${2:str}\" ${3:[maxlen]} ${4:[start_offset]}" },
                 { "trigger": "StrLen", "contents": "StrLen \\$${1:user_var} \"${2:str}\"" },
                 { "trigger": "SubCaption", "contents": "SubCaption ${1:page_number} \"${2:subcaption}\"" },
-                { "trigger": "TargetMinimalOS", "contents": "TargetMinimalOS ${1:windows_version}" },
                 { "trigger": "Unicode", "contents": "Unicode ${1:true|false}" }, // NSIS 3.0a
                 { "trigger": "UninstallButtonText", "contents": "UninstallButtonText \"${1:text}\"" },
                 { "trigger": "UninstallCaption", "contents": "UninstallCaption \"${1:caption}\"" },
