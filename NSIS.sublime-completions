@@ -61,6 +61,7 @@
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
+                { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
                 // Variables
                 { "trigger": "$ADMINTOOLS", "contents": "\\$ADMINTOOLS" },
