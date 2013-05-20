@@ -1,6 +1,6 @@
 # NSIS Completions for Sublime Text
 
-[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46.
+[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a).
 
 Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons).
 
@@ -46,7 +46,7 @@ Also included are snippets for scaffolding different types of empty scripts and 
 
 ## Installation
 
-The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control).
+The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control), but the package has is still pending.
 
 ### Windows Installer
 To build yourself an installer, download `installer.nsi` from the scripts folder and compile it.
