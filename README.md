@@ -50,9 +50,8 @@ Also included are snippets for scaffolding different types of empty scripts and 
 The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control):
 
 1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control) installed
-2. Open the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
-3. Choose *Install Package* from the command palette
-4. Select *NSIS Autocomplete and Snippets* and press `Enter`
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
+3. Select *NSIS Autocomplete and Snippets* and press `Enter`
 
 Package Control will keep all installed packages up-to-date!
 
