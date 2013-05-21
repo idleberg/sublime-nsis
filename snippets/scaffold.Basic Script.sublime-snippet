@@ -14,14 +14,14 @@ Page directory
 Page instfiles
 
 ; Sections ---------------------------------
-Section "${5:section_name}"
+Section "${5:section_name}" ${6:section_index}
 
-	${6:# your code here}
+	${7:# your code here}
 
 SectionEnd
 
 ; Functions --------------------------------
-${7}
+${8}
 ]]></content>
 	<tabTrigger>scaffold:Basic</tabTrigger>
 	<scope>source.nsis</scope>
