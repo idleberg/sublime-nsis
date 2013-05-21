@@ -49,9 +49,10 @@ Also included are snippets for scaffolding different types of empty scripts and 
 
 The easiest way to install the package is to use [Package Control](http://wbond.net/sublime_packages/package_control):
 
-1. open the Command Palette (`Ctrl+Shift+P` on Windows, `⌘+⇧+P` on OS X)
-2. type *Install Package* hit `Enter`
-3. select the package *NSIS Autocomplete and Snippets*
+1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control) installed
+2. Open the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
+3. Choose *Install Package* from the command palette
+4. Select *NSIS Autocomplete and Snippets* and press `Enter`
 
 Package Control will keep all installed packages up-to-date!
 
@@ -60,5 +61,5 @@ Assuming that you're already familiar with NSIS, you can build yourself a setup 
 
 ### Manual installation
 
-* Download the files using the GitHub .zip download option
-* Unzip the files to your Sublime Text 2 `Packages/User` directory
+1. Download the files using the GitHub .zip download option
+2. Unzip the files to your Sublime Text 2 `Packages/User` directory
