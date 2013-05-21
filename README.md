@@ -1,5 +1,5 @@
 # NSIS Autocomplete and Snippets
-by Jan T. Sott
+*by Jan T. Sott*
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a).
 
