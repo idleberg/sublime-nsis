@@ -400,7 +400,7 @@
                 { "trigger": "IntFmt", "contents": "IntFmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
                 { "trigger": "IntOp", "contents": "IntOp \\$${1:user_var} ${2:value1} ${3:operator} ${4:value2}" },
                 { "trigger": "IsWindow", "contents": "IsWindow \\$${1:HWND} ${2:jump_if_window} ${3:[jump_if_not_window]}" },
-                { "trigger": "LangString", "contents": "LicenseBkColor ${1:name} \\${LANG_${2:language_id}} \"${3:string}\"" },
+                { "trigger": "LangString", "contents": "LangString ${1:name} \\${LANG_${2:language_id}} \"${3:string}\"" },
                 { "trigger": "LicenseBkColor /windows", "contents": "LicenseBkColor /windows" },
                 { "trigger": "LicenseBkColor", "contents": "LicenseBkColor \"${1:color}\"" },
                 { "trigger": "LicenseData rtf", "contents": "LicenseData \"${1:license_file}.rtf\"" },
