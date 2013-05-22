@@ -61,6 +61,7 @@
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
+                { "trigger": "${NSIS_UNICODE}", "contents": "\\${NSIS_UNICODE}" },
                 { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
                 // Variables
@@ -202,16 +203,16 @@
                 { "trigger": "TEMPORARY or FILE_ATTRIBUTE_TEMPORARY", "contents": "TEMPORARY" },
 
                 // NSIS Folders & Resources
-                { "trigger": "$NSISDIR", "contents": "\\${NSISDIR}" },
-                { "trigger": "$NSISDIR\\Contrib\\Examples", "contents": "\\${NSISDIR}\\Contrib\\Examples\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Graphics", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Graphics\\Checks", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Checks\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Graphics\\Header", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Header\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Graphics\\Icons", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Icons\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Graphics\\Wizard", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Wizard\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Language files", "contents": "\\${NSISDIR}\\Contrib\\Language files\\" },
-                { "trigger": "$NSISDIR\\Contrib\\Plugins", "contents": "\\${NSISDIR}\\Contrib\\Plugins\\" },
-                { "trigger": "$NSISDIR\\Contrib\\UIs", "contents": "\\${NSISDIR}\\Contrib\\UIs\\" },
+                { "trigger": "${NSISDIR}", "contents": "\\${NSISDIR}" },
+                { "trigger": "${NSISDIR}\\Contrib\\Examples", "contents": "\\${NSISDIR}\\Contrib\\Examples\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Graphics", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Graphics\\Checks", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Checks\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Graphics\\Header", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Header\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Graphics\\Icons", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Icons\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Graphics\\Wizard", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Wizard\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Language files", "contents": "\\${NSISDIR}\\Contrib\\Language files\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\Plugins", "contents": "\\${NSISDIR}\\Contrib\\Plugins\\" },
+                { "trigger": "${NSISDIR}\\Contrib\\UIs", "contents": "\\${NSISDIR}\\Contrib\\UIs\\" },
                 { "trigger": "Checks\\big.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Checks\\big" },
                 { "trigger": "Checks\\classic-cross.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Checks\\classic-cross" },
                 { "trigger": "Checks\\classic.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Checks\\classic" },
