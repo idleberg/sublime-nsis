@@ -283,7 +283,7 @@
                 { "trigger": "Wizard\\win.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Wizard\\win" },
                 
                 // Commands
-                { "trigger": "Abort [message]", "contents": "Abort ${1:message}" },
+                { "trigger": "Abort [message]", "contents": "Abort \"${1:message}\"" },
                 { "trigger": "Abort", "contents": "Abort" },
                 { "trigger": "AddBrandingImage", "contents": "AddBrandingImage ${1:left|right|top|bottom} ${2:width|height} ${3:[padding]}" },
                 { "trigger": "AddSize", "contents": "AddSize ${1:size_kb}" },
