@@ -1,4 +1,4 @@
-; https://github.com/idleberg/NSIS-Sublime-Text
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Includes ---------------------------------
 !include MUI2.nsh
