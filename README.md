@@ -45,6 +45,7 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * insert help dialog
     * insert illegal file name characters define
     * insert language dialog
+    * insert messageboxes
     * insert version information
     * insert UAC init macro
 
