@@ -59,6 +59,7 @@
                 { "trigger": "${__UNINSTALL__}", "contents": "\\${__UNINSTALL__}" },
                 { "trigger": "${_NSIS_DEFAW}", "contents": "\\${_NSIS_DEFAW}" },
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
+                { "trigger": "${NSIS_CHAR_SIZE}", "contents": "\\${NSIS_CHAR_SIZE}" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
                 { "trigger": "${NSIS_UNICODE}", "contents": "\\${NSIS_UNICODE}" },
