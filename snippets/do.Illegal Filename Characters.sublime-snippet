@@ -2,6 +2,6 @@
 	<content><![CDATA[
 !define ILLEGAL_CHARS "\$\\"\$*/:<>?\|"
 ]]></content>
-	<tabTrigger>code:IllegalFileCharacters</tabTrigger>
+	<tabTrigger>do:IllegalFileCharacters</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>
