@@ -40,10 +40,13 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * MUI2 Script
     * nsDialogs Script
     * nsDialogs MUI2 Script
+    * Translate MUI2
 * Code Snippets:
     * insert help dialog
+    * insert illegal file name characters define
     * insert language dialog
     * insert version information
+    * insert UAC init macro
 
 ## Installation
 
