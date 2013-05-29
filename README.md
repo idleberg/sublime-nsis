@@ -29,6 +29,7 @@ Also included are snippets for scaffolding different types of empty scripts and 
     * LogicLib
     * Memento
     * Modern
+    * MultiUser
     * Sections
     * WinMessages
     * WinVer
@@ -57,7 +58,7 @@ The easiest way to install the package is to use [Package Control](http://wbond.
 2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
 3. Select *NSIS Autocomplete and Snippets* and press `Enter`
 
-Package Control will keep all installed packages up-to-date!
+With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings) enabled, Package Control will keep all installed packages up-to-date!
 
 ### Windows Installer
 Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
