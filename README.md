@@ -5,6 +5,8 @@
 
 Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons).
 
+This package has been tested and approved for Sublime Text versions 2 and 3 (beta).
+
 ### Features
 * all inbuilt NSIS commands, variables, defines and constants
 * Plugins:
