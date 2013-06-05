@@ -1,9 +1,7 @@
 # NSIS Autocomplete and Snippets
 *by Jan T. Sott*
 
-[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a).
-
-Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons).
+[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons).
 
 This package has been tested and approved for Sublime Text versions 2 and 3 (beta).
 
@@ -72,7 +70,7 @@ Scaffolding snippets start with the prefix `scaffold` followed by the type of sc
 * Translate MUI2
 
 #### Example:
-To create a basic NSIS script, type `scaffoldBasicScript` (or `scaffBasic`for short) and press `Tab` to create the following script:
+With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold:Basic Script` snippet and create the following script:
 
     ; Settings ---------------------------------
     Name "installer_name"
@@ -94,7 +92,7 @@ To create a basic NSIS script, type `scaffoldBasicScript` (or `scaffBasic`for sh
     
     ; Functions --------------------------------
 
-You can use `Tab` to jump to the next relevant bit of code you might want to change.
+Use `Tab` to jump to the next relevant bit of code you might want to change, `Shift-Tab` to jump back.
 
 ### Code snippets
 
@@ -108,13 +106,13 @@ Code snippets start with the prefix `do` followed by the code block you'd like t
 * version information
 
 #### Examples:
-To quickly add a message box with buttons for "Yes", "No" and "Cancel", you can use the `do:MB_YESNOCANCEL` snippet. Thanks to Sublime Text's fuzzy search, typing `doync` (and pressing `Tab`) will insert the following line:
+To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do:MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
 
     MessageBox MB_YESNOCANCEL "messagebox_text"
     
-You can use `Tab` (and `Shift-Tab`) to jump between the segments of the inserted code.
+Use `Tab` to jump between the segments of the code.
 
-To insert a code block of version information commands, simply type `dover` to trigger the `do:Version Information` snippet.
+To insert a code block of version information commands, you could type `dover` to trigger the `do:Version Information` snippet. This will insert several lines of code:
 
     VIProductVersion "0.0.0.0"
     VIFileVersion "0.0.0.0"
