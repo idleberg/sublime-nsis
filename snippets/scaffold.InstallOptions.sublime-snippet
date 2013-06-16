@@ -29,8 +29,8 @@ SectionEnd
 ; Functions --------------------------------
 Function .onInit
   
-  InitPluginsDir
-  File "/oname=\$PLUGINSDIR\\${9:ioFile}.ini" "${5}.ini"
+	InitPluginsDir
+	File "/oname=\$PLUGINSDIR\\${9:ioFile}.ini" "${5}.ini"
   
 FunctionEnd
 

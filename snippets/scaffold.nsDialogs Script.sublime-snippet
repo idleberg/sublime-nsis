@@ -42,7 +42,7 @@ FunctionEnd
 ; Sections ---------------------------------
 Section "${10:section_name}" ${11:section_index}
 
-  ${12:# your code here}
+	${12:# your code here}
 
 SectionEnd
 ]]></content>

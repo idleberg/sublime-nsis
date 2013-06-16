@@ -22,7 +22,7 @@ InstallDir "\$PROGRAMFILES\\${4:${1}}"
 ; Sections ---------------------------------
 Section "${6:section_name}" ${7:section_index}
 
-  ${8:# your code here}
+	${8:# your code here}
 
 SectionEnd
 
