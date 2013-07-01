@@ -52,7 +52,7 @@ With [auto_upgrade][5] enabled, Package Control will keep all installed packages
 
 Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
 
-There's also a collection [Sublime Text Packages][6] available, that also comes with a Windows installer.
+There's also a collection of [Sublime Text Packages][6] available as a Windows installer.
 
 ### Manual installation
 
