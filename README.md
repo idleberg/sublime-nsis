@@ -1,7 +1,7 @@
 # NSIS Autocomplete and Snippets
 *by Jan T. Sott*
 
-[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons).
+[Sublime Text][1] completions for Nullsoft Scriptable Install System ([NSIS][2]) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack][3].
 
 This package has been tested and approved for Sublime Text versions 2 and 3 (beta).
 
@@ -42,15 +42,17 @@ This package has been tested and approved for Sublime Text versions 2 and 3 (bet
 
 ### Package Control
 
-1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control) installed
+1. Make sure you already have [Package Control][4] installed
 2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
 3. Select *NSIS Autocomplete and Snippets* and press `Enter`
 
-With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings) enabled, Package Control will keep all installed packages up-to-date!
+With [auto_upgrade][5] enabled, Package Control will keep all installed packages up-to-date!
 
 ### Windows Installer
 
 Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
+
+There's also a collection [Sublime Text Packages][6] available, that also comes with a Windows installer.
 
 ### Manual installation
 
@@ -159,3 +161,10 @@ THE SOFTWARE.
 ## Donate
 
 [<img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" />](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/NSIS-Sublime-Text/&title=NSIS-Sublime-Text&description=Sublime%20Text%20completions%20and%20snippets%20for%20Nullsoft%20Scriptable%20Install%20System&language=en_GB&tags=nsis,sublimetext,plugins,completions,auto-complete&hidden=0&category=software)
+
+[1]: http://www.sublimetext.com/
+[2]: http://nsis.sourceforge.net/
+[3]: https://github.com/idleberg/NSIS-Sublime-Text-Addons/
+[4]: http://wbond.net/sublime_packages/package_control/
+[5]: http://wbond.net/sublime_packages/package_control/settings/
+[6]: https://github.com/NSIS-Handbook/Tools/tree/master/Sublime%20Text%20Packages/
