@@ -1,5 +1,4 @@
 # NSIS Autocomplete and Snippets
-*by Jan T. Sott*
 
 [Sublime Text][1] completions for Nullsoft Scriptable Install System ([NSIS][2]) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack][3].
 
@@ -53,6 +52,11 @@ With [auto_upgrade][5] enabled, Package Control will keep all installed packages
 Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
 
 There's also a collection of [Sublime Text Packages][6] available as a Windows installer.
+
+### GitHub
+
+1. Change to your Sublime Text `Packages/User` directory
+2. Clone repository `git clone https://github.com/idleberg/NSIS-Sublime-Text.git`
 
 ### Manual installation
 
