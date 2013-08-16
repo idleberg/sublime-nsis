@@ -70,6 +70,7 @@ Scaffolding snippets start with the prefix `scaffold` followed by the type of sc
 * MUI2 Script
 * nsDialogs Script
 * nsDialogs MUI2 Script
+* NSIS Language File
 * Translate MUI2
 
 #### Example:
