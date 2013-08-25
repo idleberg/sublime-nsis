@@ -78,7 +78,7 @@ Scaffolding snippets start with the prefix `scaffold` followed by the type of sc
 * Translate MUI2
 
 #### Example:
-With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold:Basic Script` snippet and create the following script:
+With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold__Basic Script` snippet and create the following script:
 
     ; Settings ---------------------------------
     Name "installer_name"
@@ -120,7 +120,7 @@ To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel"
     
 Use `Tab` to jump between the segments of the code.
 
-To insert a code block of version information commands, you could type `dover` to trigger the `do:Version Information` snippet. This will insert several lines of code:
+To insert a code block of version information commands, you could type `dover` to trigger the `do__Version Information` snippet. This will insert several lines of code:
 
     VIProductVersion "0.0.0.0"
     VIFileVersion "0.0.0.0"

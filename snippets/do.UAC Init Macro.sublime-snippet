@@ -18,13 +18,13 @@
 		MessageBox MB_ICONSTOP|MB_TOPMOST|MB_SETFOREGROUND "${3:Logon service not running, aborting!}"
 		Quit
 	\${Default}
-		MessageBox MB_ICONSTOP|mb_TopMost|MB_SETFOREGROUND "${4:Unable to elevate , error \$0}"
+		MessageBox MB_ICONSTOP|mb_TopMost|MB_SETFOREGROUND "${4:Unable to elevate, error \$0}"
 		Quit
 	\${EndSwitch}
 	 
 	SetShellVarContext all
 !macroend
 ]]></content>
-	<tabTrigger>do:UAC Init Macro</tabTrigger>
+	<tabTrigger>do__UAC Init Macro</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

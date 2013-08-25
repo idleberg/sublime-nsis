@@ -2,6 +2,6 @@
 	<content><![CDATA[
 MessageBox MB_YESNOCANCEL${1} "${2:messagebox_text}" ${3}
 ]]></content>
-	<tabTrigger>do:MB_YESNOCANCEL</tabTrigger>
+	<tabTrigger>do__MB_YESNOCANCEL</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

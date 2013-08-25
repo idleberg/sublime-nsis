@@ -57,6 +57,6 @@ LangString DESC_${12} \${LANG_${8}} "${14:section_description}"
 	!insertmacro MUI_DESCRIPTION_TEXT \${${12}} \$(DESC_${12})
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 ]]></content>
-	<tabTrigger>scaffold:nsDialogs ModernUI</tabTrigger>
+	<tabTrigger>scaffold__nsDialogs ModernUI</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

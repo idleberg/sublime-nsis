@@ -23,6 +23,6 @@ SectionEnd
 ; Functions --------------------------------
 ${8}
 ]]></content>
-	<tabTrigger>scaffold:Basic Script</tabTrigger>
+	<tabTrigger>scaffold__Basic Script</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

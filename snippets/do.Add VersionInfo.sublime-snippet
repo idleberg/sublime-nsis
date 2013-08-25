@@ -15,6 +15,6 @@ VIAddVersionKey "InternalName" "${14:internal_name}"
 VIAddVersionKey "PrivateBuild" "${15:private_build}"
 VIAddVersionKey "SpecialBuild" "${16:special_build}"
 ]]></content>
-	<tabTrigger>do:Version Information</tabTrigger>
+	<tabTrigger>do__Version Information</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>
