@@ -67,7 +67,7 @@ There's also a collection of [Sublime Text Packages][6] available as a Windows i
 
 ### Auto-completion
 
-When not specifying a flag alongside a command, completion will display all available flags, with the first flag being the default.
+When not specifying a flag alongside a command, completion will display all available flags, with the first flag always being the default.
 
 ### Scaffolding snippets
 
