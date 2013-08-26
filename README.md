@@ -65,6 +65,10 @@ There's also a collection of [Sublime Text Packages][6] available as a Windows i
 
 ## Usage
 
+### Auto-completion
+
+When not specifying a flag alongside a command, completion will display all available flags, with the first flag being the default.
+
 ### Scaffolding snippets
 
 Scaffolding snippets start with the prefix `scaffold` followed by the type of script you'd like to build:

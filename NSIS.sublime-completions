@@ -6,7 +6,7 @@
                 // Compiler Utility Commands
                 { "trigger": "!addincludedir", "contents": "!addincludedir \"${1:directory}\"" },
                 { "trigger": "!addplugindir", "contents": "!addplugindir \"${1:directory}\"" },
-                { "trigger": "!appendfile /CHARSET", "contents": "!appendfile /CHARSET=${1:charset} \"${2:file}\" \"${3:text}\"" }, // NSIS 3.0a
+                { "trigger": "!appendfile /CHARSET", "contents": "!appendfile /CHARSET=${1:charset} \"${2:file}\" \"${3:text}\"" },
                 { "trigger": "!appendfile", "contents": "!appendfile \"${1:file}\" \"${2:text}\"" },
                 { "trigger": "!cd", "contents": "!cd \"${1:new_path}\"" },
                 { "trigger": "!delfile", "contents": "!delfile \"${1:file}\"" },
@@ -14,7 +14,7 @@
                 { "trigger": "!error", "contents": "!error \"${1:message}\"" },
                 { "trigger": "!execute", "contents": "!execute \"${1:command}\"" },
                 { "trigger": "!finalize", "contents": "!finalize \"${1:command}\"" },
-                { "trigger": "!getdllversion", "contents": "!getdllversion \"${1:localfilename}\" \"${1:define_basename}\"" }, // NSIS 3.0a
+                { "trigger": "!getdllversion", "contents": "!getdllversion \"${1:localfilename}\" \"${1:define_basename}\"" },
                 { "trigger": "!include", "contents": "!include \"${1:file}\"" },
                 { "trigger": "!packhdr", "contents": "!packhdr \"${1:tempfile}\" \"${2:command}\"" },
                 { "trigger": "!system", "contents": "!system \"${1:command}\"" },
@@ -44,14 +44,14 @@
                 { "trigger": "!undef", "contents": "!undef ${1:gflag}" },
 
                 // Predefines
-                { "trigger": "${__COUNTER__}", "contents": "\\${__COUNTER__}" }, // NSIS 3.0a
+                { "trigger": "${__COUNTER__}", "contents": "\\${__COUNTER__}" },
                 { "trigger": "${__DATE__}", "contents": "\\${__DATE__}" },
                 { "trigger": "${__FILE__}", "contents": "\\${__FILE__}" },
                 { "trigger": "${__FILEDIR__}", "contents": "\\${__FILEDIR__}" },
                 { "trigger": "${__FUNCTION__}", "contents": "\\${__FUNCTION__}" },
                 { "trigger": "${__GLOBAL__}", "contents": "\\${__GLOBAL__}" },
                 { "trigger": "${__LINE__}", "contents": "\\${__LINE__}" },
-                { "trigger": "${__MACRO__}", "contents": "\\${__MACRO__}" }, // NSIS 3.0a
+                { "trigger": "${__MACRO__}", "contents": "\\${__MACRO__}" },
                 { "trigger": "${__PAGEEX__}", "contents": "\\${__PAGEEX__}" },
                 { "trigger": "${__SECTION__}", "contents": "\\${__SECTION__}" },
                 { "trigger": "${__TIME__}", "contents": "\\${__TIME__}" },
@@ -61,7 +61,7 @@
                 { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
                 { "trigger": "${NSIS_CHAR_SIZE}", "contents": "\\${NSIS_CHAR_SIZE}" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
-                { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" }, // NSIS 3.0a
+                { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" },
                 { "trigger": "${NSIS_UNICODE}", "contents": "\\${NSIS_UNICODE}" },
                 { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
@@ -113,7 +113,7 @@
                 // NSIS Command Helpers
                 { "trigger": "/AUTOADD", "contents": "/AUTOADD" },
                 { "trigger": "/BRANDING", "contents": "/BRANDING" },
-                { "trigger": "/CHARSET", "contents": "/CHARSET" }, // NSIS 3.0a
+                { "trigger": "/CHARSET", "contents": "/CHARSET" },
                 { "trigger": "/CHECKNOSHORTCUTS", "contents": "/CHECKNOSHORTCUTS" },
                 { "trigger": "/COMPONENTSONLYONCUSTOM", "contents": "/COMPONENTSONLYONCUSTOM" },
                 { "trigger": "/CUSTOMSTRING", "contents": "/CUSTOMSTRING=${1:string}" },
@@ -290,13 +290,13 @@
                 { "trigger": "AddSize", "contents": "AddSize ${1:size_kb}" },
                 { "trigger": "AllowRootDirInstall false", "contents": "AllowRootDirInstall false" },
                 { "trigger": "AllowRootDirInstall true", "contents": "AllowRootDirInstall true" },
-                { "trigger": "AllowRootDirInstall", "contents": "AllowRootDirInstall ${1:true|false}" },
+                { "trigger": "AllowRootDirInstall", "contents": "AllowRootDirInstall ${1:false|true}" },
                 { "trigger": "AllowSkipFiles off", "contents": "AllowSkipFiles off" },
                 { "trigger": "AllowSkipFiles on", "contents": "AllowSkipFiles on" },
                 { "trigger": "AllowSkipFiles", "contents": "AllowSkipFiles ${1:on|off}" },
                 { "trigger": "AutoCloseWindow false", "contents": "AutoCloseWindow false" },
                 { "trigger": "AutoCloseWindow true", "contents": "AutoCloseWindow true" },
-                { "trigger": "AutoCloseWindow", "contents": "AutoCloseWindow ${1:true|false}" },
+                { "trigger": "AutoCloseWindow", "contents": "AutoCloseWindow ${1:false|true}" },
                 { "trigger": "BGFont", "contents": "BGFont \"${1:font_face}\"" },
                 { "trigger": "BGGradient off", "contents": "BGGradient ${1:off}" },
                 { "trigger": "BGGradient", "contents": "BGGradient ${1:top_color} ${2:bottom_color}" },
@@ -316,7 +316,7 @@
                 { "trigger": "CopyFiles", "contents": "CopyFiles \"${1:filespec_on_destsys}\" \"${2:destination_path}\" ${3:[size_of_files_in_kb]}" },
                 { "trigger": "CRCCheck off", "contents": "CRCCheck off" },
                 { "trigger": "CRCCheck on", "contents": "CRCCheck on" },
-                { "trigger": "CRCCheck", "contents": "CRCCheck ${on|off}" },
+                { "trigger": "CRCCheck", "contents": "CRCCheck ${off|on}" },
                 { "trigger": "CreateDirectory", "contents": "CreateDirectory \"${1:path_to_create}\"" },
                 { "trigger": "CreateFont", "contents": "CreateFont \\$${1:user_var} \"${2:face_name}\" ${3:[height] [weight]}" },
                 { "trigger": "CreateShortCut", "contents": "CreateShortCut \"${1:link}.lnk\" ${2:target}" },
@@ -409,6 +409,7 @@
                 { "trigger": "IntOp", "contents": "IntOp \\$${1:user_var} ${2:value1} ${3:operator} ${4:value2}" },
                 { "trigger": "IsWindow", "contents": "IsWindow \\$${1:HWND} ${2:jump_if_window} ${3:[jump_if_not_window]}" },
                 { "trigger": "LangString", "contents": "LangString ${1:name} ${2:\\${LANG_ENGLISH\\}} \"${3:string}\"" },
+                { "trigger": "LicenseBkColor /gray", "contents": "LicenseBkColor /gray" },
                 { "trigger": "LicenseBkColor /windows", "contents": "LicenseBkColor /windows" },
                 { "trigger": "LicenseBkColor", "contents": "LicenseBkColor \"${1:color}\"" },
                 { "trigger": "LicenseData rtf", "contents": "LicenseData \"${1:license_file}.rtf\"" },
@@ -429,16 +430,16 @@
                 { "trigger": "LogSet on", "contents": "LogSet on" },
                 { "trigger": "LogSet", "contents": "LogSet ${1:on|off}" },
                 { "trigger": "LogText", "contents": "LogText \"${1:text}\"" },
-                { "trigger": "ManifestDPIAware false", "contents": "ManifestDPIAware false" }, // NSIS 3.0a
-                { "trigger": "ManifestDPIAware notset", "contents": "ManifestDPIAware notset" }, // NSIS 3.0a
-                { "trigger": "ManifestDPIAware true", "contents": "ManifestDPIAware true" }, // NSIS 3.0a
-                { "trigger": "ManifestDPIAware", "contents": "ManifestDPIAware ${1:notset|true|false}" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS all", "contents": "ManifestSupportedOS all" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS none", "contents": "ManifestSupportedOS none" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS Win7", "contents": "ManifestSupportedOS Win7" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS Win8", "contents": "ManifestSupportedOS Win8" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS WinVista", "contents": "ManifestSupportedOS WinVista" }, // NSIS 3.0a
-                { "trigger": "ManifestSupportedOS", "contents": "ManifestSupportedOS ${1:none|all|WinVista|Win7|Win8|{GUID}}" }, // NSIS 3.0a
+                { "trigger": "ManifestDPIAware false", "contents": "ManifestDPIAware false" },
+                { "trigger": "ManifestDPIAware notset", "contents": "ManifestDPIAware notset" },
+                { "trigger": "ManifestDPIAware true", "contents": "ManifestDPIAware true" },
+                { "trigger": "ManifestDPIAware", "contents": "ManifestDPIAware ${1:notset|true|false}" },
+                { "trigger": "ManifestSupportedOS all", "contents": "ManifestSupportedOS all" },
+                { "trigger": "ManifestSupportedOS none", "contents": "ManifestSupportedOS none" },
+                { "trigger": "ManifestSupportedOS Win7", "contents": "ManifestSupportedOS Win7" },
+                { "trigger": "ManifestSupportedOS Win8", "contents": "ManifestSupportedOS Win8" },
+                { "trigger": "ManifestSupportedOS WinVista", "contents": "ManifestSupportedOS WinVista" },
+                { "trigger": "ManifestSupportedOS", "contents": "ManifestSupportedOS ${1:none|all|WinVista|Win7|Win8|{GUID}}" },
                 { "trigger": "MessageBox", "contents": "MessageBox ${1:mb_option_list} \"${2:messagebox_text}\"" },
                 { "trigger": "MiscButtonText", "contents": "MiscButtonText \"${1:back_button_text}\" \"${2:next_button_text}\" \"${3:cancel_button_text}\" \"${4:close_button_text}\"" },
                 { "trigger": "Name &&", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"" },
@@ -563,9 +564,11 @@
                 { "trigger": "ShowInstDetails hide", "contents": "ShowInstDetails hide" },
                 { "trigger": "ShowInstDetails nevershow", "contents": "ShowInstDetails nevershow" },
                 { "trigger": "ShowInstDetails show", "contents": "ShowInstDetails show" },
+                { "trigger": "ShowInstDetails", "contents": "ShowInstDetails hide|show|nevershow" },
                 { "trigger": "ShowUninstDetails hide", "contents": "ShowUninstDetails hide" },
                 { "trigger": "ShowUninstDetails nevershow", "contents": "ShowUninstDetails nevershow" },
                 { "trigger": "ShowUninstDetails show", "contents": "ShowUninstDetails show" },
+                { "trigger": "ShowUninstDetails", "contents": "ShowUninstDetails hide|show|nevershow" },
                 { "trigger": "ShowWindow", "contents": "ShowWindow \\$${1:hwnd} ${2:show_state}" },
                 { "trigger": "SilentInstall normal", "contents": "SilentInstall normal" },
                 { "trigger": "SilentInstall silent", "contents": "SilentInstall silent" },
@@ -582,9 +585,9 @@
                 { "trigger": "StrCpy", "contents": "StrCpy \\$${1:user_var} \"${2:str}\" ${3:[maxlen]} ${4:[start_offset]}" },
                 { "trigger": "StrLen", "contents": "StrLen \\$${1:user_var} \"${2:str}\"" },
                 { "trigger": "SubCaption", "contents": "SubCaption ${1:page_number} \"${2:subcaption}\"" },
-                { "trigger": "Unicode false", "contents": "Unicode false" }, // NSIS 3.0a
-                { "trigger": "Unicode true", "contents": "Unicode true" }, // NSIS 3.0a
-                { "trigger": "Unicode", "contents": "Unicode ${1:true|false}" }, // NSIS 3.0a
+                { "trigger": "Unicode false", "contents": "Unicode false" },
+                { "trigger": "Unicode true", "contents": "Unicode true" },
+                { "trigger": "Unicode", "contents": "Unicode ${1:true|false}" },
                 { "trigger": "UninstallButtonText", "contents": "UninstallButtonText \"${1:text}\"" },
                 { "trigger": "UninstallCaption", "contents": "UninstallCaption \"${1:caption}\"" },
                 { "trigger": "UninstallIcon", "contents": "UninstallIcon \"${1:icon}.ico\"" },
@@ -619,7 +622,7 @@
                 { "trigger": "VIAddVersionKey LegalTrademarks", "contents": "VIAddVersionKey \"LegalTrademarks\" \"${1:value}\"" },
                 { "trigger": "VIAddVersionKey ProductName", "contents": "VIAddVersionKey \"ProductName\" \"${1:value}\"" },
                 { "trigger": "VIAddVersionKey", "contents": "VIAddVersionKey \"${1:keyname}\" \"${2:value}\"" },
-                { "trigger": "VIFileVersion", "contents": "VIFileVersion \"${1:version_string}\"" }, // NSIS 3.0a
+                { "trigger": "VIFileVersion", "contents": "VIFileVersion \"${1:version_string}\"" },
                 { "trigger": "VIProductVersion", "contents": "VIProductVersion \"${1:version_string}\"" },
                 { "trigger": "WindowIcon off", "contents": "WindowIcon off" },
                 { "trigger": "WindowIcon on", "contents": "WindowIcon on" },
@@ -632,7 +635,7 @@
                 { "trigger": "WriteUninstaller", "contents": "WriteUninstaller \"${1:exename}.exe\"" },
                 { "trigger": "XPStyle off", "contents": "XPStyle off" },
                 { "trigger": "XPStyle on", "contents": "XPStyle on" },
-                { "trigger": "XPStyle", "contents": "XPStyle ${1:on|off}" },
+                { "trigger": "XPStyle", "contents": "XPStyle ${1:off|on}" },
 
                 // Callback Functions
                 { "trigger": "Function .onGUIEnd", "contents": "Function .onGUIEnd\n\t${1}\nFunctionEnd" },
