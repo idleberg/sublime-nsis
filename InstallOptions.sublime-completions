@@ -141,7 +141,6 @@
                 { "trigger": "REQ_SAVE", "contents": "REQ_SAVE" },
                 { "trigger": "RESIZETOFIT", "contents": "RESIZETOFIT" },
                 { "trigger": "RIGHT", "contents": "RIGHT" },
-                { "trigger": "RIGHT", "contents": "RIGHT" },
                 { "trigger": "STOP", "contents": "STOP" },
                 { "trigger": "TOP", "contents": "TOP" },
                 { "trigger": "TRANSPARENT", "contents": "TRANSPARENT" },
