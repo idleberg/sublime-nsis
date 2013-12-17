@@ -54,6 +54,6 @@ LangString DESC_NSIS-Sublime-Text-Menu ${LANG_English} "Adds context menu to loo
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ; Functions --------------------------------
-Function .onInit
+Function onInit
 	InitPluginsDir
 FunctionEnd

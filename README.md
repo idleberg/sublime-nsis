@@ -169,7 +169,7 @@ THE SOFTWARE.
 
 ## Donate
 
-[<img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" />](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/NSIS-Sublime-Text/&title=NSIS-Sublime-Text&description=Sublime%20Text%20completions%20and%20snippets%20for%20Nullsoft%20Scriptable%20Install%20System&language=en_GB&tags=nsis,sublimetext,plugins,completions,auto-complete&hidden=0&category=software)
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/NSIS-Sublime-Text) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
 
 [1]: http://www.sublimetext.com/
 [2]: http://nsis.sourceforge.net/
