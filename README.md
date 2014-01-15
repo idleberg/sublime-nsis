@@ -2,7 +2,9 @@
 
 [Sublime Text][1] completions for Nullsoft Scriptable Install System ([NSIS][2]) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack][3].
 
-This package has been tested and approved for Sublime Text versions 2 and 3 (beta).
+![Screenshot](https://raw.github.com/idleberg/NSIS-Sublime-Text/master/screenshot.gif)
+
+*Screenshot of NSIS file in Sublime Text with [Paraíso theme](https://github.com/idleberg/Paraiso.tmTheme)*
 
 ### Features
 * all inbuilt NSIS commands, variables, defines and constants
