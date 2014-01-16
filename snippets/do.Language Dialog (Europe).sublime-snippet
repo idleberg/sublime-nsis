@@ -7,17 +7,9 @@ Push \${LANG_ENGLISH}
 Push "English"
 
 # more languages here
-Push \${LANG_AFRIKAANS}
-Push "Afrikaans"
 
 Push \${LANG_ALBANIAN}
 Push "Albanian"
-
-Push \${LANG_ALBANIAN}
-Push "Albanian"
-
-Push \${LANG_ARABIC}
-Push "Arabic"
 
 Push \${LANG_ASTURIAN}
 Push "Asturian"
@@ -40,12 +32,6 @@ Push "Bulgarian"
 Push \${LANG_CATALAN}
 Push "Catalan"
 
-Push \${LANG_SIMPCHINESE}
-Push "Chinese (Simplified)"
-
-Push \${LANG_TRADCHINESE}
-Push "Chinese (Traditional)"
-
 Push \${LANG_CROATIAN}
 Push "Croatian"
 
@@ -58,14 +44,8 @@ Push "Danish"
 Push \${LANG_DUTCH}
 Push "Dutch"
 
-Push \${LANG_ESPERANTO}
-Push "Esperanto"
-
 Push \${LANG_ESTONIAN}
 Push "Estonian"
-
-Push \${LANG_FARSI}
-Push "Farsi"
 
 Push \${LANG_FINNISH}
 Push "Finnish"
@@ -76,17 +56,11 @@ Push "French"
 Push \${LANG_GALICIAN}
 Push "Galician"
 
-Push \${LANG_GEORGIAN}
-Push "Georgian"
-
 Push \${LANG_GERMAN}
 Push "German"
 
 Push \${LANG_GREEK}
 Push "Greek"
-
-Push \${LANG_HEBREW}
-Push "Hebrew"
 
 Push \${LANG_HUNGARIAN}
 Push "Hungarian"
@@ -94,20 +68,11 @@ Push "Hungarian"
 Push \${LANG_ICELANDIC}
 Push "Icelandic"
 
-Push \${LANG_INDONESIAN}
-Push "Indonesian"
-
 Push \${LANG_IRISH}
 Push "Irish"
 
 Push \${LANG_ITALIAN}
 Push "Italian"
-
-Push \${LANG_JAPANESE}
-Push "Japanese"
-
-Push \${LANG_KOREAN}
-Push "Korean"
 
 Push \${LANG_KURDISH}
 Push "Kurdish"
@@ -124,29 +89,17 @@ Push "Luxembourgish"
 Push \${LANG_MACEDONIAN}
 Push "Macedonian"
 
-Push \${LANG_MALAY}
-Push "Malay"
-
-Push \${LANG_MONGOLIAN}
-Push "Mongolian"
-
 Push \${LANG_NORWEGIAN}
 Push "Norwegian"
 
 Push \${LANG_NORWEGIANNYNORSK}
 Push "Norwegian (Nynorsk)"
 
-Push \${LANG_PASHTO}
-Push "Pashto"
-
 Push \${LANG_POLISH}
 Push "Polish"
 
 Push \${LANG_PORTUGUESE}
 Push "Portuguese"
-
-Push \${LANG_PORTUGUESEBR}
-Push "Portuguese (Brazil)"
 
 Push \${LANG_ROMANIAN}
 Push "Romanian"
@@ -172,14 +125,8 @@ Push "Slovenian"
 Push \${LANG_SPANISH}
 Push "Spanish"
 
-Push \${LANG_SPANISHINTERNATIONAL}
-Push "Spanish (International)"
-
 Push \${LANG_SWEDISH}
 Push "Swedish"
-
-Push \${LANG_THAI}
-Push "Thai"
 
 Push \${LANG_TURKISH}
 Push "Turkish"
@@ -187,16 +134,8 @@ Push "Turkish"
 Push \${LANG_UKRAINIAN}
 Push "Ukrainian"
 
-Push \${LANG_UZBEK}
-Push "Uzbek"
-
-Push \${LANG_VIETNAMESE}
-Push "Vietnamese"
-
 Push \${LANG_WELSH}
 Push "Welsh"
-
-
 
 Push "A"
 
@@ -205,6 +144,6 @@ Pop \$LANGUAGE
 StrCmp \$LANGUAGE "cancel" 0 +2
 Abort
 ]]></content>
-	<tabTrigger>do__Language Dialog</tabTrigger>
+	<tabTrigger>do__Language Dialog (Europe)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

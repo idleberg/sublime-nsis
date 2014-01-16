@@ -7,7 +7,7 @@ Push \${LANG_ENGLISH}
 Push "English"
 
 # more languages here
-Push \${LANG_AFRIKAANS}
+${1:Push \${LANG_AFRIKAANS}
 Push "Afrikaans"
 
 Push \${LANG_ALBANIAN}
@@ -194,7 +194,7 @@ Push \${LANG_VIETNAMESE}
 Push "Vietnamese"
 
 Push \${LANG_WELSH}
-Push "Welsh"
+Push "Welsh"}
 
 
 

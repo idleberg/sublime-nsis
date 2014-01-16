@@ -7,11 +7,8 @@ Push \${LANG_ENGLISH}
 Push "English"
 
 # more languages here
-Push \${LANG_AFRIKAANS}
+${1:Push \${LANG_AFRIKAANS}
 Push "Afrikaans"
-
-Push \${LANG_ALBANIAN}
-Push "Albanian"
 
 Push \${LANG_ALBANIAN}
 Push "Albanian"
@@ -196,8 +193,6 @@ Push "Vietnamese"
 Push \${LANG_WELSH}
 Push "Welsh"
 
-
-
 Push "A"
 
 LangDLL::LangDialog "${1:Program Language}" "${2:Please select a language for this program}"
@@ -205,6 +200,6 @@ Pop \$LANGUAGE
 StrCmp \$LANGUAGE "cancel" 0 +2
 Abort
 ]]></content>
-	<tabTrigger>do__Language Dialog</tabTrigger>
+	<tabTrigger>do__Language Dialog (Worldwide)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>
