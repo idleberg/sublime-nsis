@@ -83,6 +83,8 @@ Scaffolding snippets start with the prefix `scaffold` followed by the type of sc
 * NSIS Language File
 * Translate MUI2
 
+Several of the above snippets can set the number of sections in a script or add an init function.
+
 #### Example:
 With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold__Basic Script` snippet and create the following script:
 
