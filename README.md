@@ -120,6 +120,8 @@ Code snippets start with the prefix `do` followed by the code block you'd like t
 * message boxes
 * UAC init macro
 * version information
+* version compare
+* IsWin, IsRunningX64, and IsServer checks
 
 #### Examples:
 To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do:MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
