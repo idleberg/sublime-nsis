@@ -7,7 +7,6 @@ Push \${LANG_ENGLISH}
 Push "English"
 
 # more languages here
-
 Push \${LANG_ALBANIAN}
 Push "Albanian"
 
