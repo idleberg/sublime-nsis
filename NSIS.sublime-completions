@@ -3,7 +3,7 @@
 
         "completions":
         [
-                // Compiler Utility Commands
+                { "#": "Compiler Utility Commands" },
                 { "trigger": "!addincludedir", "contents": "!addincludedir \"${1:directory}\"" },
                 { "trigger": "!addplugindir", "contents": "!addplugindir \"${1:directory}\"" },
                 { "trigger": "!appendfile /CHARSET", "contents": "!appendfile /CHARSET=${1:charset} \"${2:file}\" \"${3:text}\"" },
@@ -22,7 +22,7 @@
                 { "trigger": "!verbose", "contents": "!verbose \"${1:level}\"" },
                 { "trigger": "!warning", "contents": "!warning \"${1:message}\"" },
 
-                // Conditional Compilation
+                { "#": "Conditional Compilation" },
                 { "trigger": "!define", "contents": "!define ${1:gflag}" },
                 { "trigger": "!else", "contents": "!else" },
                 { "trigger": "!endif", "contents": "!endif" },
@@ -43,7 +43,7 @@
                 { "trigger": "!searchreplace", "contents": "!searchparse \"${1:symbol_out}\" \"${2:source_string}\" \"${3:searchfor}\" \"${3:replacewith}\"" },
                 { "trigger": "!undef", "contents": "!undef ${1:gflag}" },
 
-                // Predefines
+                { "#": "Predefines" },
                 { "trigger": "${__COUNTER__}", "contents": "\\${__COUNTER__}" },
                 { "trigger": "${__DATE__}", "contents": "\\${__DATE__}" },
                 { "trigger": "${__FILE__}", "contents": "\\${__FILE__}" },
@@ -65,7 +65,7 @@
                 { "trigger": "${NSIS_UNICODE}", "contents": "\\${NSIS_UNICODE}" },
                 { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
-                // Variables
+                { "#": "Variables" },
                 { "trigger": "$ADMINTOOLS", "contents": "\\$ADMINTOOLS" },
                 { "trigger": "$APPDATA", "contents": "\\$APPDATA" },
                 { "trigger": "$CDBURN_AREA", "contents": "\\$CDBURN_AREA" },
@@ -110,7 +110,7 @@
                 { "trigger": "$VIDEOS", "contents": "\\$VIDEOS" },
                 { "trigger": "$WINDIR", "contents": "\\$WINDIR" },
 
-                // NSIS Command Helpers
+                { "#": "NSIS Command Helpers" },
                 { "trigger": "/AUTOADD", "contents": "/AUTOADD" },
                 { "trigger": "/BRANDING", "contents": "/BRANDING" },
                 { "trigger": "/CHARSET", "contents": "/CHARSET" },
@@ -203,7 +203,7 @@
                 { "trigger": "SYSTEM or FILE_ATTRIBUTE_SYSTEM", "contents": "SYSTEM" },
                 { "trigger": "TEMPORARY or FILE_ATTRIBUTE_TEMPORARY", "contents": "TEMPORARY" },
 
-                // NSIS Folders & Resources
+                { "#": "NSIS Folders & Resources" },
                 { "trigger": "${NSISDIR}", "contents": "\\${NSISDIR}" },
                 { "trigger": "${NSISDIR}\\Contrib\\Examples", "contents": "\\${NSISDIR}\\Contrib\\Examples\\" },
                 { "trigger": "${NSISDIR}\\Contrib\\Graphics", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\" },
@@ -282,7 +282,7 @@
                 { "trigger": "Wizard\\orange.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Wizard\\orange" },
                 { "trigger": "Wizard\\win.bmp", "contents": "\\${NSISDIR}\\Contrib\\Graphics\\Wizard\\win" },
                 
-                // Commands
+                { "#": "Commands" },
                 { "trigger": "Abort [message]", "contents": "Abort \"${1:message}\"" },
                 { "trigger": "Abort", "contents": "Abort" },
                 { "trigger": "AddBrandingImage", "contents": "AddBrandingImage ${1:left|right|top|bottom} ${2:width|height} ${3:[padding]}" },
@@ -440,7 +440,9 @@
                 { "trigger": "ManifestSupportedOS", "contents": "ManifestSupportedOS ${1:none|all|WinVista|Win7|Win8|{GUID}}" },
                 { "trigger": "MessageBox", "contents": "MessageBox ${1:mb_option_list} \"${2:messagebox_text}\"" },
                 { "trigger": "MiscButtonText", "contents": "MiscButtonText \"${1:back_button_text}\" \"${2:next_button_text}\" \"${3:cancel_button_text}\" \"${4:close_button_text}\"" },
+                { "trigger": "Name && +OutFile", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"\nOutFile \"${3:${1}}.exe\"" },
                 { "trigger": "Name &&", "contents": "Name \"${1:name}\" \"${2:name_doubled_ampersands}\"" },
+                { "trigger": "Name +OutFile", "contents": "Name \"${1:name}\"\nOutFile \"${2:${1}}.exe\"" },
                 { "trigger": "Name", "contents": "Name \"${1:name}\"" },
                 { "trigger": "Nop", "contents": "Nop" },
                 { "trigger": "OutFile", "contents": "OutFile \"${1:file_name}.exe\"" },
@@ -631,7 +633,7 @@
                 { "trigger": "XPStyle on", "contents": "XPStyle on" },
                 { "trigger": "XPStyle", "contents": "XPStyle ${1:off|on}" },
 
-                // Callback Functions
+                { "#": "Callback Functions" },
                 { "trigger": "Function .onGUIEnd", "contents": "Function .onGUIEnd\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function .onGUIInit", "contents": "Function .onGUIInit\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function .onInit", "contents": "Function .onInit\n\t${1}\nFunctionEnd" },
@@ -643,7 +645,7 @@
                 { "trigger": "Function .onUserAbort", "contents": "Function .onUserAbort\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function .onVerifyInstDir", "contents": "Function .onVerifyInstDir\n\t${1}\nFunctionEnd" },
 
-                // Uninstall Callback Functions
+                { "#": "Uninstall Callback Functions" },
                 { "trigger": "Function un.onGUIEnd", "contents": "Function un.onGUIEnd\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function un.onGUIInit", "contents": "Function un.onGUIInit\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function un.onInit", "contents": "Function un.onInit\n\t${1}\nFunctionEnd" },
@@ -653,7 +655,7 @@
                 { "trigger": "Function un.onUninstSuccess", "contents": "Function un.onUninstSuccess\n\t${1}\nFunctionEnd" },
                 { "trigger": "Function un.onUserAbort", "contents": "Function un.onUserAbort\n\t${1}\nFunctionEnd" },
 
-                // Include directory
+                { "#": "Include directory" },
                 { "trigger": "!include Colors", "contents": "!include Colors.nsh" },
                 { "trigger": "!include FileFunc", "contents": "!include FileFunc.nsh" },
                 { "trigger": "!include InstallOptions", "contents": "!include InstallOptions.nsh" },
@@ -678,7 +680,7 @@
                 { "trigger": "!include WordFunc", "contents": "!include WordFunc.nsh" },
                 { "trigger": "!include x64", "contents": "!include x64.nsh" },
 
-                // FileFunc.nsh
+                { "#": "FileFunc.nsh" },
                 { "trigger": "${BannerTrimPath}", "contents": "\\${BannerTrimPath} \"${1:path_string}\" \"${2:option}\" \\$${3:var}" },
                 { "trigger": "${DirState}", "contents": "\\${DirState} \"${1:path}\" \\$${2:var}" },
                 { "trigger": "${DriveSpace}", "contents": "\\${DriveSpace} \"${1:drive}\" \"${2:options}\" \\$${3:size}" },
@@ -700,7 +702,7 @@
                 { "trigger": "${Locate}", "contents": "\\${Locate} \"${1:path}\" \"${2:options}\" \"${3:function}\"" },
                 { "trigger": "${RefreshShellIcons}", "contents": "\\${RefreshShellIcons}" },
 
-                // TextFunc.nsh
+                { "#": "TextFunc.nsh" },
                 { "trigger": "${ConfigRead}", "contents": "\\${ConfigRead} \"${1:file}\" \"${2:entry}\" \\$${3:var}" },
                 { "trigger": "${ConfigReadS}", "contents": "\\${ConfigReadS} \"${1:file}\" \"${2:entry}\" \\$${3:var}" },
                 { "trigger": "${ConfigWrite}", "contents": "\\${ConfigWrite} \"${1:file}\" \"${2:entry}\" \"${3:value}\" \\$${4:var}" },
@@ -715,7 +717,7 @@
                 { "trigger": "${TextCompareS}", "contents": "\\${TextCompareS} \"${1:file1}\" \"${2:file2}\" \"${3:option}\" \"${4:function}\"" },
                 { "trigger": "${TrimNewLines}", "contents": "\\${TrimNewLines} \"${1:string}\" \\$${2:var}" },
 
-                // WordFunc.nsh
+                { "#": "WordFunc.nsh" },
                 { "trigger": "${StrFilter}", "contents": "\\${StrFilter} \"${1:input}\" \"${2:options}\" \"${3:symbols1}\" \"${4:symbols2}\" \\$${5:output}" },
                 { "trigger": "${StrFilterS}", "contents": "\\${StrFilterS} \"${1:input}\" \"${2:options}\" \"${3:symbols1}\" \"${4:symbols2}\" \\$${5:output}" },
                 { "trigger": "${VersionCompare}", "contents": "\\${StrFilterS} \"${1:input}\" \"${2:options}\" \\$${3:output}" },
@@ -732,7 +734,7 @@
                 { "trigger": "${WordReplace}", "contents": "\\${WordReplace} \"${1:input}\" \"${2:word1}\" \"${3:word2}\" \"${4:options}\" \\$${5:output}" },
                 { "trigger": "${WordReplaceS}", "contents": "\\${WordReplaceS} \"${1:input}\" \"${2:word1}\" \"${3:word2}\" \"${4:options}\" \\$${5:output}" },
 
-                // LogicLib.nsh
+                { "#": "LogicLib.nsh" },
                 { "trigger": "${Abort}", "contents": "\\${Abort}" },
                 { "trigger": "${AndIf}", "contents": "\\${AndIf} ${1:condition}" },
                 { "trigger": "${AndIfNot}", "contents": "\\${AndIfNot} ${1:condition}" },
@@ -777,7 +779,7 @@
                 { "trigger": "${Unless}", "contents": "\\${Select} \\$${1:var}\n\t${4}\n\\${EndUnless}" },
                 { "trigger": "${While}", "contents": "\\${While} ${1:condition}\n\t${4}\n\\${EndWhile}" },
 
-                // Memento.nsh
+                { "#": "Memento.nsh" },
                 { "trigger": "!define MEMENTO_REGISTRY_KEY", "contents": "!define MEMENTO_REGISTRY_KEY \"${1:Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MyProgram\"}" },
                 { "trigger": "!define MEMENTO_REGISTRY_ROOT", "contents": "!define MEMENTO_REGISTRY_ROOT ${1:HKLM}" },
                 { "trigger": "${MementoSection}", "contents": "\\${MementoSection} \"${1:section_name}\" ${2:section_index}\n\t${3}\n\\${MementoSectionEnd}" },
@@ -786,7 +788,7 @@
                 { "trigger": "${MementoSectionSave}", "contents": "\\${MementoSectionSave}" },
                 { "trigger": "${MementoUnselectedSection}", "contents": "\\${MementoUnselectedSection} ${1:section_name} ${2:section_index}" },
 
-                // MUI2.nsh
+                { "#": "MUI2.nsh" },
                 { "trigger": "!define MUI_ABORTWARNING", "contents": "!define MUI_ABORTWARNING" },
                 { "trigger": "!define MUI_ABORTWARNING_TEXT", "contents": "!define MUI_ABORTWARNING_TEXT \"${1:text}\"" },
                 { "trigger": "!define MUI_BGCOLOR", "contents": "!define MUI_BGCOLOR \"${1:RRGGBB}\"" },
@@ -923,7 +925,7 @@
                 { "trigger": "!insertmacro MUI_UNPAGE_WELCOME", "contents": "!insertmacro MUI_UNPAGE_WELCOME" },
                 { "trigger": "!insertmacro MUI_WELCOMEFINISHPAGE_CUSTOMFUNCTION_INIT", "contents": "!insertmacro MUI_WELCOMEFINISHPAGE_CUSTOMFUNCTION_INIT \"${1:function}\"" },
 
-                // MultiUser.nsh
+                { "#": "MultiUser.nsh" },
                 { "trigger": "!define MULTIUSER_EXECUTIONLEVEL Admin", "contents": "!define MULTIUSER_EXECUTIONLEVEL Admin" },
                 { "trigger": "!define MULTIUSER_EXECUTIONLEVEL Highest", "contents": "!define MULTIUSER_EXECUTIONLEVEL Highest" },
                 { "trigger": "!define MULTIUSER_EXECUTIONLEVEL Power", "contents": "!define MULTIUSER_EXECUTIONLEVEL Power" },
@@ -958,7 +960,7 @@
                 { "trigger": "!insertmacro MULTIUSER_PAGE_INSTALLMODE", "contents": "!insertmacro MULTIUSER_PAGE_INSTALLMODE" },
                 { "trigger": "!insertmacro MULTIUSER_UNINIT", "contents": "!insertmacro MULTIUSER_UNINIT" },
 
-                // Sections.nsh
+                { "#": "Sections.nsh" },
                 { "trigger": "${SECTION_OFF}", "contents": "\\${SECTION_OFF}" },
                 { "trigger": "${SF_BOLD}", "contents": "\\${SF_BOLD}" },
                 { "trigger": "${SF_EXPAND}", "contents": "\\${SF_EXPAND}" },
@@ -972,7 +974,7 @@
                 { "trigger": "${SF_SUBSECEND}", "contents": "\\${SF_SUBSECEND}" },
                 { "trigger": "${SF_TOGGLED}", "contents": "\\${SF_TOGGLED}" },
 
-                // WinVer.nsh
+                { "#": "WinVer.nsh" },
                 { "trigger": "${AtLeastServicePack}", "contents": "\\${AtLeastServicePack}" },
                 { "trigger": "${AtLeastWin2000}", "contents": "\\${AtLeastWin2000}" },
                 { "trigger": "${AtLeastWin2003}", "contents": "\\${AtLeastWin2003}" },
@@ -1018,20 +1020,20 @@
                 { "trigger": "${IsWinVista}", "contents": "\\${IsWinVista}" },
                 { "trigger": "${IsWinXP}", "contents": "\\${IsWinXP}" },
 
-                // x64x.nsh
+                { "#": "x64.nsh" },
                 { "trigger": "${DisableX64FSRedirection}", "contents": "\\${DisableX64FSRedirection}" },
                 { "trigger": "${EnableX64FSRedirection}", "contents": "\\${EnableX64FSRedirection}" },
                 { "trigger": "${RunningX64}", "contents": "\\${RunningX64}" },
 
-                // AdvSplash.dll
+                { "#": "AdvSplash.dll" },
                 { "trigger": "AdvSplash::show", "contents": "AdvSplash::show ${1:delay} ${2:fade_in} ${3:fade_out} ${4:key_color} \"${5:file}\"" },
 
-                // Banner.dll
+                { "#": "Banner.dll" },
                 { "trigger": "Banner::destroy", "contents": "Banner::destroy" },
                 { "trigger": "Banner::getWindow", "contents": "Banner::getWindow \"${1:file}\"" },
                 { "trigger": "Banner::show", "contents": "Banner::show \"${1:file}\"" },
 
-                // BgImage.dll
+                { "#": "BgImage.dll" },
                 { "trigger": "BgImage::AddImage", "contents": "BgImage::AddImage \"${1:file}.bmp\" ${2:x} ${3:y}" },
                 { "trigger": "BgImage::AddText", "contents": "BgImage::AddText \"${1:text}\" \"${2:font}\" ${3:R} ${4:G} ${5:B} ${6:x} ${7:x}" },
                 { "trigger": "BgImage::Clear", "contents": "BgImage::Clear" },
@@ -1041,14 +1043,14 @@
                 { "trigger": "BgImage::SetReturn", "contents": "BgImage::SetReturn \"${1:on|off}\"" },
                 { "trigger": "BgImage::Sound", "contents": "BgImage::Sound \"${1:file}.wav\"" },
 
-                // Dialer.dll
+                { "#": "Dialer.dll" },
                 { "trigger": "Dialer::AttemptConnect", "contents": "Dialer::AttemptConnect" },
                 { "trigger": "Dialer::AutodialHangup", "contents": "Dialer::AutodialHangup" },
                 { "trigger": "Dialer::AutodialOnline", "contents": "Dialer::AutodialOnline" },
                 { "trigger": "Dialer::AutodialUnattended", "contents": "Dialer::AutodialUnattended" },
                 { "trigger": "Dialer::GetConnectedState", "contents": "Dialer::GetConnectedState" },
 
-                // InstallOptions.dll
+                { "#": "InstallOptions.dll" },
                 { "trigger": "!insertmacro INSTALLOPTIONS_DISPLAY", "contents": "!insertmacro INSTALLOPTIONS_DISPLAY \"${1:file}.ini\"" },
                 { "trigger": "!insertmacro INSTALLOPTIONS_EXTRACT", "contents": "!insertmacro INSTALLOPTIONS_EXTRACT \"${1:file}.ini\"" },
                 { "trigger": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT", "contents": "!insertmacro INSTALLOPTIONS_FUNCTION_READ_CONVERT" },
@@ -1063,13 +1065,13 @@
                 { "trigger": "InstallOptions::initDialog", "contents": "InstallOptions::initDialog \"${1:file}.ini\"" },
                 { "trigger": "InstallOptions::show", "contents": "InstallOptions::show" },
 
-                // LangDLL.dll
+                { "#": "LangDLL.dll" },
                 { "trigger": "LangDLL::LangDialog", "contents": "LangDLL::LangDialog \"${1:title}\" \"${2:text}\"" },
 
-                // Math.dll
+                { "#": "Math.dll" },
                 { "trigger": "Math::Script", "contents": "Math::Script \"${1:script}\"" },
 
-                // nsDialogs.dll
+                { "#": "nsDialogs.dll" },
                 { "trigger": "${NSD_AddExStyle}", "contents": "\\${NSD_AddExStyle} \\$${1:dialog} \"${2:style}\"" },
                 { "trigger": "${NSD_AddStyle}", "contents": "\\${NSD_AddStyle} \\$${1:dialog} \"${2:style}\"" },
                 { "trigger": "${NSD_CB_AddString}", "contents": "\\${NSD_CB_AddString} \\$${1:dialog} \"${2:string}\"" },
@@ -1137,7 +1139,7 @@
                 { "trigger": "nsDialogs::SetUserData", "contents": "nsDialogs::SetUserData \\$${1:control_HWND} \"${2:data}\"" },
                 { "trigger": "nsDialogs::Show", "contents": "nsDialogs::Show" },
 
-                // nsExec.dll
+                { "#": "nsExec.dll" },
                 { "trigger": "nsExec::Exec /OEM", "contents": "nsExec::Exec /OEM \"${1}\"" },
                 { "trigger": "nsExec::Exec /TIMEOUT", "contents": "nsExec::Exec /TIMEOUT=${1} \"${2}\"" },
                 { "trigger": "nsExec::Exec", "contents": "nsExec::Exec \"${1}\"" },
@@ -1148,33 +1150,33 @@
                 { "trigger": "nsExec::ExecToStack /TIMEOUT", "contents": "nsExec::ExecToStack /TIMEOUT=${1} \"${2}\"" },
                 { "trigger": "nsExec::ExecToStack", "contents": "nsExec::ExecToStack \"${1}\"" },
 
-                // NSISdl.dll
+                { "#": "NSISdl.dll" },
                 { "trigger": "NSISdl::download /TIMEOUT", "contents": "NSISdl::download /TIMEOUT=${1:time_in_ms} \"${2:url}\" \"${3:local_file}\"" },
                 { "trigger": "NSISdl::download", "contents": "NSISdl::download \"${1:url}\" \"${2:local_file}\"" },
 
-                // Splash.dll
+                { "#": "Splash.dll" },
                 { "trigger": "Splash::show", "contents": "Splash::show ${1:time_in_ms} \"${2:file}.bmp\"" },
 
-                // StartMenu.dll
+                { "#": "StartMenu.dll" },
                 { "trigger": "StartMenu::Init", "contents": "StartMenu::Init \"${1:text}\"" },
                 { "trigger": "StartMenu::Select", "contents": "StartMenu::Select ${1}" },
                 
-                // System.dll
+                { "#": "UserInfo.dll" },
                 { "trigger": "System::Alloc", "contents": "System::Alloc ${1:size}" },
                 { "trigger": "System::Call", "contents": "System::Call \"${1:parameters}\"" },
                 { "trigger": "System::Copy", "contents": "System::Copy ${1:destination} ${2:source}" },
                 { "trigger": "System::Free", "contents": "System::Free \\$${1:address}" },
                 { "trigger": "System::Get", "contents": "System::Get \"${1:parameters}\"" },
 
-                // UserInfo.dll
+                { "#": "UserInfo.dll" },
                 { "trigger": "UserInfo::GetAccountType", "contents": "UserInfo::GetAccountType" },
                 { "trigger": "UserInfo::GetName", "contents": "UserInfo::GetName" },
                 { "trigger": "UserInfo::GetOriginalAccountType", "contents": "UserInfo::GetOriginalAccountType" },
                 
-                // VPatch.dll
+                { "#": "VPatch.dll" },
                 { "trigger": "vpatch::vpatchfile", "contents": "vpatch::vpatchfile \"${1:patch}.pat\" \"${2:old_file}\" \"${3:new_file}\"" },
 
-                // WinMessages.nsh
+                { "#": "WinMessages" },
                 { "trigger": "${ABM_ACTIVATE}", "contents": "\\${ABM_ACTIVATE}" },
                 { "trigger": "${ABM_GETAUTOHIDEBAR}", "contents": "\\${ABM_GETAUTOHIDEBAR}" },
                 { "trigger": "${ABM_GETSTATE}", "contents": "\\${ABM_GETSTATE}" },
@@ -1758,7 +1760,7 @@
                 { "trigger": "${WM_XBUTTONDOWN}", "contents": "\\${WM_XBUTTONDOWN}" },
                 { "trigger": "${WM_XBUTTONUP}", "contents": "\\${WM_XBUTTONUP}" },
 
-                // Languages
+                { "#": "Languages" },
                 { "trigger": "${LANG_AFRIKAANS}", "contents": "\\${LANG_AFRIKAANS}" },
                 { "trigger": "${LANG_ALBANIAN}", "contents": "\\${LANG_ALBANIAN}" },
                 { "trigger": "${LANG_ARABIC}", "contents": "\\${LANG_ARABIC}" },
@@ -1822,7 +1824,7 @@
                 { "trigger": "${LANG_UZBEK}", "contents": "\\${LANG_UZBEK}" },
                 { "trigger": "${LANG_WELSH}", "contents": "\\${LANG_WELSH}" },
 
-                // Language IDs
+                { "#": "Language IDs" },
                 { "trigger": "lcid:Afrikaans", "contents": "1078" },
                 { "trigger": "lcid:Albanian", "contents": "1052" },
                 { "trigger": "lcid:Arabic", "contents": "1025" },
@@ -1886,6 +1888,6 @@
                 { "trigger": "lcid:Uzbek", "contents": "1091" },
                 { "trigger": "lcid:Welsh", "contents": "1160" },
 
-                { /* It ain't over 'til the fat lady sings */ }
+                { "note": "It ain't over 'til the fat lady sings" }
         ]
 }
