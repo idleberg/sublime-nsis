@@ -183,3 +183,6 @@ You are welcome support this project using [Flattr](https://flattr.com/submit/au
 [4]: http://wbond.net/sublime_packages/package_control/
 [5]: http://wbond.net/sublime_packages/package_control/settings/
 [6]: https://github.com/NSIS-Handbook/Tools/tree/master/Sublime%20Text%20Packages/
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/idleberg/nsis-sublime-text/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
