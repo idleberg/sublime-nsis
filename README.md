@@ -124,7 +124,7 @@ Code snippets start with the prefix `do` followed by the code block you'd like t
 * IsWin, IsRunningX64, and IsServer checks
 
 #### Examples:
-To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do:MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
+To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do__MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
 
     MessageBox MB_YESNOCANCEL "messagebox_text"
     
