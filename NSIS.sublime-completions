@@ -27,7 +27,7 @@
                 { "trigger": "!else", "contents": "!else" },
                 { "trigger": "!endif", "contents": "!endif" },
                 { "trigger": "!if", "contents": "!if ${1:value1} ${2:op} ${3:value2}\n\t${4:# your code here}\n!endif" },
-                { "trigger": "!if..else", "contents": "!if ${1:value1} ${2:op} ${3:value2}\n\t${4:# your code here}\n!else\n\t${5}\n!endif" },
+                { "trigger": "!if..else", "contents": "!if ${1:value1} ${2:op} ${3:value2}\n\t${4:# your code here}\n!else\n\t${5:# your code here}\n!endif" },
                 { "trigger": "!ifdef", "contents": "!ifdef ${1:gflag}\n\t${2:# your code here}\n!endif" },
                 { "trigger": "!ifdef..else", "contents": "!ifdef ${1:gflag}\n\t${2:# your code here}\n!else\n\t${3:# your code here}\n!endif" },
                 { "trigger": "!ifmacrodef", "contents": "!ifmacrodef ${1:gflag}\n\t${2:# your code here}\n!endif" },
