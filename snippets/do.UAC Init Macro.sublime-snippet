@@ -25,6 +25,6 @@
 	SetShellVarContext all
 !macroend
 ]]></content>
-	<tabTrigger>do__UAC Init Macro</tabTrigger>
+	<tabTrigger>do:UAC Init Macro</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

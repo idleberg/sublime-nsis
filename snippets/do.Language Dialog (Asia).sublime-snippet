@@ -71,6 +71,6 @@ Pop \$LANGUAGE
 StrCmp \$LANGUAGE "cancel" 0 +2
 Abort
 ]]></content>
-	<tabTrigger>do__Language Dialog (Asia)</tabTrigger>
+	<tabTrigger>do:Language Dialog (Asia)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

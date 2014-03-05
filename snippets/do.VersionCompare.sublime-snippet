@@ -16,6 +16,6 @@
 
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__VersionCompare</tabTrigger>
+	<tabTrigger>do:VersionCompare</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

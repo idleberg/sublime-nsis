@@ -36,6 +36,6 @@ LangString DESC_${7} \${LANG_${5}} "${9:section_description}"
 ; Functions --------------------------------
 ${10}
 ]]></content>
-	<tabTrigger>scaffold__ModernUI</tabTrigger>
+	<tabTrigger>scaffold:ModernUI</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

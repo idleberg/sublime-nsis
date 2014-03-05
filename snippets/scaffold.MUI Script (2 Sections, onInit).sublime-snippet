@@ -50,6 +50,6 @@ FunctionEnd
 
 ${15}
 ]]></content>
-	<tabTrigger>scaffold__ModernUI (2 Sections, onInit)</tabTrigger>
+	<tabTrigger>scaffold:ModernUI (2 Sections, onInit)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

@@ -10,6 +10,6 @@
 
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsNT..Else</tabTrigger>
+	<tabTrigger>do:IsNT..Else</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

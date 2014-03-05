@@ -36,6 +36,6 @@
 	\${EndIf}
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsServicePack (Windows NT4)</tabTrigger>
+	<tabTrigger>do:IsServicePack (Windows NT4)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

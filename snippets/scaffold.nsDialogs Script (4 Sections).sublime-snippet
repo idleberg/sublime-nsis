@@ -64,6 +64,6 @@ Section "${19:section_name}" ${20:section_index4}
 
 SectionEnd
 ]]></content>
-	<tabTrigger>scaffold__nsDialogs (4 Sections)</tabTrigger>
+	<tabTrigger>scaffold:nsDialogs (4 Sections)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

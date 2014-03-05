@@ -46,6 +46,6 @@ Section "${10:section_name}" ${11:section_index}
 
 SectionEnd
 ]]></content>
-	<tabTrigger>scaffold__nsDialogs</tabTrigger>
+	<tabTrigger>scaffold:nsDialogs</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

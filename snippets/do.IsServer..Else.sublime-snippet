@@ -10,6 +10,6 @@
 
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsServer..Else</tabTrigger>
+	<tabTrigger>do:IsServer..Else</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

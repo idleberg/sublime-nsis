@@ -6,6 +6,6 @@ Pop \$${6:button_variable}
 GetFunctionAddress \$0 ${7:click_function}
 nsDialogs::OnClick /NOUNLOAD \$${6:button_variable} $0
 ]]></content>
-	<tabTrigger>do__nsDialogs ClickButton</tabTrigger>
+	<tabTrigger>do:nsDialogs ClickButton</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

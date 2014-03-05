@@ -12,6 +12,6 @@
 	\${EndIf}
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsServicePack (Windows 7)</tabTrigger>
+	<tabTrigger>do:IsServicePack (Windows 7)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

@@ -10,6 +10,6 @@ Function "${1:function}"
 	nsDialogs::Show
 FunctionEnd
 ]]></content>
-	<tabTrigger>do__nsDialogs Function</tabTrigger>
+	<tabTrigger>do:nsDialogs Function</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

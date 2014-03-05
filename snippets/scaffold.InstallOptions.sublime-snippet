@@ -50,6 +50,6 @@ Function "${7}"
 
 FunctionEnd
 ]]></content>
-	<tabTrigger>scaffold__InstallOptions</tabTrigger>
+	<tabTrigger>scaffold:InstallOptions</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

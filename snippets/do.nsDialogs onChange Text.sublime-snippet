@@ -6,6 +6,6 @@ Pop \$${6:text_dialog}
 	
 \${NSD_OnChange} \$${6:text_dialog} ${7:text_function}
 ]]></content>
-	<tabTrigger>do__nsDialogs onChangeText</tabTrigger>
+	<tabTrigger>do:nsDialogs onChangeText</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

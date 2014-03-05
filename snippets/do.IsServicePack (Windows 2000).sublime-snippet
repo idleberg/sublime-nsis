@@ -24,6 +24,6 @@
 	\${EndIf}
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsServicePack (Windows 2000)</tabTrigger>
+	<tabTrigger>do:IsServicePack (Windows 2000)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

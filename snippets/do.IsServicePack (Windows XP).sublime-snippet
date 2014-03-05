@@ -20,6 +20,6 @@
 	\${EndIf}
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsServicePack (Windows XP)</tabTrigger>
+	<tabTrigger>do:IsServicePack (Windows XP)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

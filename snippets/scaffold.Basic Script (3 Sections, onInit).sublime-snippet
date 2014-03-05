@@ -41,6 +41,6 @@ FunctionEnd
 
 ${15}
 ]]></content>
-	<tabTrigger>scaffold__Basic Script (3 Sections, onInit)</tabTrigger>
+	<tabTrigger>scaffold:Basic Script (3 Sections, onInit)</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

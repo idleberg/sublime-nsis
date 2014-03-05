@@ -6,6 +6,6 @@
 
 \${EndIf}
 ]]></content>
-	<tabTrigger>do__IsRunningX64</tabTrigger>
+	<tabTrigger>do:IsRunningX64</tabTrigger>
 	<scope>source.nsis</scope>
 </snippet>

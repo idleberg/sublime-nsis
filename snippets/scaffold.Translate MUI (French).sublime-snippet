@@ -127,6 +127,6 @@
   \${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "${67:Installer seulement pour moi}"
 !endif
 ]]></content>
-  <tabTrigger>scaffold__Translate MUI (French)</tabTrigger>
+  <tabTrigger>scaffold:Translate MUI (French)</tabTrigger>
   <scope>source.nsis</scope>
 </snippet>
