@@ -1,6 +1,6 @@
 # NSIS Completions & Snippets
 
-[Sublime Text][1] completions for Nullsoft Scriptable Install System ([NSIS][2]) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack][3].
+[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons/).
 
 ![Screenshot](https://raw.github.com/idleberg/NSIS-Sublime-Text/master/screenshot.gif)
 
@@ -43,17 +43,17 @@
 
 ### Package Control
 
-1. Make sure you already have [Package Control][4] installed
+1. Make sure you already have [Package Control](http://wbond.net/sublime_packages/package_control/) installed
 2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows and Linux, `⇧⌘P` on OS X)
 3. Select *NSIS Completions & Snippets* and press `Enter`
 
-With [auto_upgrade][5] enabled, Package Control will keep all installed packages up-to-date!
+With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
 ### Windows Installer
 
 Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
 
-There's also a collection of [Sublime Text Packages][6] available as a Windows installer.
+There's also a collection of [Sublime Text Packages](https://github.com/NSIS-Dev/Sublime-Text-Packages) available as a Windows installer.
 
 ### GitHub
 
@@ -62,7 +62,7 @@ There's also a collection of [Sublime Text Packages][6] available as a Windows i
 
 ### Manual installation
 
-1. Download the files using the GitHub .zip download option
+1. Download the files using the GitHub [.zip](https://github.com/idleberg/NSIS-Sublime-Text/archive/master.zip) download option
 2. Unzip the files to your Sublime Text `Packages/User` directory
 
 ## Usage
@@ -176,10 +176,3 @@ THE SOFTWARE.
 ## Donate
 
 You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/NSIS-Sublime-Text) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
-
-[1]: http://www.sublimetext.com/
-[2]: http://nsis.sourceforge.net/
-[3]: https://github.com/idleberg/NSIS-Sublime-Text-Addons/
-[4]: http://wbond.net/sublime_packages/package_control/
-[5]: http://wbond.net/sublime_packages/package_control/settings/
-[6]: https://github.com/NSIS-Handbook/Tools/tree/master/Sublime%20Text%20Packages/
