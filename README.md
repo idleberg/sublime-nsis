@@ -130,22 +130,22 @@ To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel"
     
 Use `Tab` to jump between the segments of the code.
 
-To insert a code block of version information commands, you could type `dover` to trigger the `do:Version Information` snippet. This will insert several lines of code:
+To insert a code block of version information commands, you could type `doinf` to trigger the `do:Version Information` snippet. This will insert several lines of code:
 
     VIProductVersion "0.0.0.0"
-    VIFileVersion "0.0.0.0"
-    VIAddVersionKey "FileDescription" "description"
-    VIAddVersionKey "FileVersion" "0.0.0.0"
-    VIAddVersionKey "ProductName" "product_name"
-    VIAddVersionKey "ProductVersion" "0.0.0.0"
-    VIAddVersionKey "LegalCopyright" "copyright"
-    VIAddVersionKey "OriginalFilename" "file_name.exe"
-    VIAddVersionKey "Comments" "comment"
-    VIAddVersionKey "LegalTrademarks" "trademark"
-    VIAddVersionKey "CompanyName" "company_name"
-    VIAddVersionKey "InternalName" "internal_name"
-    VIAddVersionKey "PrivateBuild" "private_build"
-    VIAddVersionKey "SpecialBuild" "special_build"
+    VIFileVersion    "0.0.0.0"
+    VIAddVersionKey  "FileDescription"  "description"
+    VIAddVersionKey  "FileVersion"      "0.0.0.0"
+    VIAddVersionKey  "ProductName"      "product_name"
+    VIAddVersionKey  "ProductVersion"   "0.0.0.0"
+    VIAddVersionKey  "LegalCopyright"   "copyright"
+    VIAddVersionKey  "OriginalFilename" "file_name.exe"
+    VIAddVersionKey  "Comments"         "comment"
+    VIAddVersionKey  "LegalTrademarks"  "trademark"
+    VIAddVersionKey  "CompanyName"      "company_name"
+    VIAddVersionKey  "InternalName"     "internal_name"
+    VIAddVersionKey  "PrivateBuild"     "private_build"
+    VIAddVersionKey  "SpecialBuild"     "special_build"
 
 Again, you can use `Tab` to jump back and forth.
 
