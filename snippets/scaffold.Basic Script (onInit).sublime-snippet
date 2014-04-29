@@ -17,7 +17,7 @@ Page directory
 Page instfiles
 
 ; Sections ---------------------------------
-Section "${6:section_name}" ${7:section_index}
+Section "${6:section}" ${7:${6/(.*)/\L\1/}_index}
 
 	${8:# your code here}
 
