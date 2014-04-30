@@ -1,0 +1,12 @@
+Thanks for installing the NSIS Completions and Snippets. You can further extend
+Sublime Text's NSIS support by installing one of the following packages via
+Package Control:
+
+    “NSIS”, a syntax highlighter
+    https://github.com/SublimeText/NSIS
+
+    “NSIS Plug-in Completions”, completions for third-party plug-ins
+    https://github.com/idleberg/NSIS-Sublime-Text-Addons
+
+    “Drunken NSIS”, fuzzy NSIS completions
+    https://github.com/idleberg/Drunken-NSIS
