@@ -10,3 +10,6 @@ Package Control:
 
     “Drunken NSIS”, fuzzy NSIS completions
     https://github.com/idleberg/Drunken-NSIS
+
+    “NSIS Language File Syntax”, for NSIS translators only
+    https://github.com/idleberg/NSIS-Language-File-Sublime-Text
