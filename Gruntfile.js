@@ -42,12 +42,6 @@
 		  }
 		},
 
-        mdlint: {
-            files: {
-                src: ['README.md']
-            }
-        },
-
  		xml_validator: {
  			files: {
  				src: xmlFiles
@@ -70,11 +64,9 @@
  	grunt.loadNpmTasks('grunt-contrib-watch');
  	grunt.loadNpmTasks('grunt-xml-validator');
  	grunt.loadNpmTasks('grunt-jsonlint');
-    grunt.loadNpmTasks('grunt-mdlint');
- 	grunt.registerTask('default', ['jsonlint', 'mdlint', 'xml_validator']);
+ 	grunt.registerTask('default', ['jsonlint', 'xml_validator']);
 
     // task shortcuts
  	grunt.registerTask('json', 'jsonlint');
-    grunt.registerTask('md', 'mdlint');
  	grunt.registerTask('xml', 'xml_validator');
  };
