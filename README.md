@@ -1,4 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/idleberg/NSIS-Sublime-Text.png)](http://travis-ci.org/idleberg/NSIS-Sublime-Text)
+
 # NSIS Completions & Snippets
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0a). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons/).
