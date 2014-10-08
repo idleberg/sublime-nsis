@@ -16,6 +16,7 @@
                 { "trigger": "!finalize", "contents": "!finalize \"${1:command}\"" },
                 { "trigger": "!getdllversion", "contents": "!getdllversion \"${1:localfilename}\" \"${1:define_basename}\"" },
                 { "trigger": "!include", "contents": "!include \"${1:file}\"" },
+                { "trigger": "!makensis", "contents": "!makensis \"${1:parameters}\"" },
                 { "trigger": "!packhdr", "contents": "!packhdr \"${1:tempfile}\" \"${2:command}\"" },
                 { "trigger": "!system", "contents": "!system \"${1:command}\"" },
                 { "trigger": "!tempfile", "contents": "!system \"${1:symbol}\"" },
