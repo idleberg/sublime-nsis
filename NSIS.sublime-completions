@@ -1153,6 +1153,7 @@
                 { "#": "x64.nsh" },
                 { "trigger": "${DisableX64FSRedirection}", "contents": "\\${DisableX64FSRedirection}" },
                 { "trigger": "${EnableX64FSRedirection}", "contents": "\\${EnableX64FSRedirection}" },
+                { "trigger": "${IsWow64}", "contents": "\\${IsWow64}" },
                 { "trigger": "${RunningX64}", "contents": "\\${RunningX64}" },
 
                 { "#": "AdvSplash.dll" },
