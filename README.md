@@ -128,26 +128,30 @@ Code snippets start with the prefix `do` followed by the code block you'd like t
 #### Examples:
 To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do:MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
 
-    MessageBox MB_YESNOCANCEL "messagebox_text"
-    
+```nsis
+ MessageBox MB_YESNOCANCEL "messagebox_text"
+```
+
 Use `Tab` to jump between the segments of the code.
 
 To insert a code block of version information commands, you could type `doinf` to trigger the `do:Version Information` snippet. This will insert several lines of code:
 
-    VIProductVersion "0.0.0.0"
-    VIFileVersion    "0.0.0.0"
-    VIAddVersionKey  "FileDescription"  "description"
-    VIAddVersionKey  "FileVersion"      "0.0.0.0"
-    VIAddVersionKey  "ProductName"      "product_name"
-    VIAddVersionKey  "ProductVersion"   "0.0.0.0"
-    VIAddVersionKey  "LegalCopyright"   "copyright"
-    VIAddVersionKey  "OriginalFilename" "file_name.exe"
-    VIAddVersionKey  "Comments"         "comment"
-    VIAddVersionKey  "LegalTrademarks"  "trademark"
-    VIAddVersionKey  "CompanyName"      "company_name"
-    VIAddVersionKey  "InternalName"     "internal_name"
-    VIAddVersionKey  "PrivateBuild"     "private_build"
-    VIAddVersionKey  "SpecialBuild"     "special_build"
+```nsis
+ VIProductVersion "0.0.0.0"
+ VIFileVersion    "0.0.0.0"
+ VIAddVersionKey  "FileDescription"  "description"
+ VIAddVersionKey  "FileVersion"      "0.0.0.0"
+ VIAddVersionKey  "ProductName"      "product_name"
+ VIAddVersionKey  "ProductVersion"   "0.0.0.0"
+ VIAddVersionKey  "LegalCopyright"   "copyright"
+ VIAddVersionKey  "OriginalFilename" "file_name.exe"
+ VIAddVersionKey  "Comments"         "comment"
+ VIAddVersionKey  "LegalTrademarks"  "trademark"
+ VIAddVersionKey  "CompanyName"      "company_name"
+ VIAddVersionKey  "InternalName"     "internal_name"
+ VIAddVersionKey  "PrivateBuild"     "private_build"
+ VIAddVersionKey  "SpecialBuild"     "special_build"
+```
 
 Again, you can use `Tab` to jump back and forth.
 
