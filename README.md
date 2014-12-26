@@ -88,25 +88,27 @@ Several of the above snippets can set the number of sections in a script or add 
 #### Example:
 With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold:Basic Script` snippet and create the following script:
 
-    ; Settings ---------------------------------
-    Name "installer_name"
-    OutFile "installer_name.exe"
-    RequestExecutionLevel user
-    InstallDir "$PROGRAMFILES\installer_name"
-    
-    ; Pages ------------------------------------
-    Page components
-    Page directory
-    Page instfiles
-    
-    ; Sections ---------------------------------
-    Section "section_name" section_index
-    
-        # your code here
-    
-    SectionEnd
-    
-    ; Functions --------------------------------
+```nsis
+ ; Settings ---------------------------------
+ Name "installer_name"
+ OutFile "installer_name.exe"
+ RequestExecutionLevel user
+ InstallDir "$PROGRAMFILES\installer_name"
+ 
+ ; Pages ------------------------------------
+ Page components
+ Page directory
+ Page instfiles
+ 
+ ; Sections ---------------------------------
+ Section "section_name" section_index
+ 
+     # your code here
+ 
+ SectionEnd
+ 
+ ; Functions --------------------------------
+````
 
 Use `Tab` to jump to the next relevant bit of code you might want to change, `Shift-Tab` to jump back.
 
