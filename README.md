@@ -27,16 +27,16 @@
     * System
     * UserInfo
     * VPatch
-* Macros:
+* Headers:
     * FileFunc
-    * WordFunc
     * LogicLib
     * Memento
-    * Modern
+    * Modern UI
     * MultiUser
     * Sections
     * WinMessages
     * WinVer
+    * WordFunc
     * x64
 * Includes, Graphics, UIs
 * Scaffolding Snippets
