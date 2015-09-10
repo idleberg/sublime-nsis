@@ -1,7 +1,7 @@
 # NSIS Completions & Snippets
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Package Control](https://packagecontrol.herokuapp.com/downloads/NSIS%20Completions%20&amp;%20Snippets.svg?style=flat-square)](https://packagecontrol.io/packages/NSIS%20Completions%20&amp;%20Snippets)
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/NSIS%20Completions%20&amp;%20Snippets.svg?style=flat-square)](https://packagecontrol.io/packages/NSIS%20Completions%20&%20Snippets)
 [![Travis](https://img.shields.io/travis/idleberg/NSIS-Sublime-Text.svg?style=flat-square)](https://travis-ci.org/idleberg/NSIS-Sublime-Text)
 
 [Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0b2). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons/).
