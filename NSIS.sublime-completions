@@ -720,7 +720,7 @@
                 { "trigger": "Function un.onUserAbort", "contents": "Function un.onUserAbort\n\t${1:# your code here}\nFunctionEnd" },
 
                 { "#": "Include directory" },
-                { "trigger": "!include Colors", "contents": "!include \"Colors.nsh\" },
+                { "trigger": "!include Colors", "contents": "!include \"Colors.nsh\"" },
                 { "trigger": "!include FileFunc", "contents": "!include \"FileFunc.nsh\"" },
                 { "trigger": "!include InstallOptions", "contents": "!include \"InstallOptions.nsh\"" },
                 { "trigger": "!include LangFile", "contents": "!include \"LangFile.nsh\"" },
