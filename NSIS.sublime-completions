@@ -1624,7 +1624,6 @@
                 { "trigger": "${PBM_STEPIT}", "contents": "\\${PBM_STEPIT}" },
                 { "trigger": "${PBST_ERROR}", "contents": "\\${PBST_ERROR}" },
                 { "trigger": "${PBST_NORMAL}", "contents": "\\${PBST_NORMAL}" },
-                { "trigger": "${PBST_PAUSED}", "contents": "\\${PBST_PAUSED}" },
                 { "trigger": "${PBST_PAUSED}", "contents": "\\${PBST_PAUSE}" },
                 { "trigger": "${SB_CONST_ALPHA}", "contents": "\\${SB_CONST_ALPHA}" },
                 { "trigger": "${SB_GRAD_RECT}", "contents": "\\${SB_GRAD_RECT}" },
