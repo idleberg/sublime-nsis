@@ -170,7 +170,7 @@
                 { "trigger": "HKCU or HKEY_CURRENT_USER", "contents": "HKCU" },
                 { "trigger": "HKDD or HKEY_CURRENT_CONFIG", "contents": "HKDD" },
                 { "trigger": "HKLM or HKEY_LOCAL_MACHINE", "contents": "HKLM" },
-                { "trigger": "HKPD or HKEY_DYN_DATA", "contents": "HKPD" },
+                { "trigger": "HKDD or HKEY_DYN_DATA", "contents": "HKDD" },
                 { "trigger": "HKPD or HKEY_PERFORMANCE_DATA", "contents": "HKPD" },
                 { "trigger": "HKU or HKEY_USERS", "contents": "HKU" },
                 { "trigger": "IDABORT", "contents": "IDABORT" },
