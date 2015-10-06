@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+
+; Settings ---------------------------------
+OutFile "${1:installer_name}"
+
+; Includes ---------------------------------
+${2}
+
+; Pages ------------------------------------
+${3:Page instfiles}
+
+; Sections ---------------------------------
+Section "${4:section_name}"
+
+	${5:# your code here}
+
+SectionEnd
+
+; Functions --------------------------------
+${7}
+]]></content>
+	<tabTrigger>scaffold:Minimal Script</tabTrigger>
+	<scope>source.nsis</scope>
+</snippet>
