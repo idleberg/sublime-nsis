@@ -802,7 +802,7 @@
                 { "trigger": "${Abort}", "contents": "\\${Abort}" },
                 { "trigger": "${AndIf}", "contents": "\\${AndIf} ${1:condition}" },
                 { "trigger": "${AndIfNot}", "contents": "\\${AndIfNot} ${1:condition}" },
-                { "trigger": "${Case}", "contents": "\\${Case} ${1)" },
+                { "trigger": "${Case}", "contents": "\\${Case} ${1}" },
                 { "trigger": "${Cmd}", "contents": "\\${Cmd} `${1}`" },
                 { "trigger": "${Do…Loop}", "contents": "\\${Do}\n\t${1:# your code here}\n\\${Loop}" },
                 { "trigger": "${Do…LoopUntil}", "contents": "\\${Do}\n\t${2:# your code here}\n\\${LoopUntil} ${1:statement}" },
