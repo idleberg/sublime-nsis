@@ -6,7 +6,7 @@
 OutFile "${1:installer_name}"
 
 ; Includes ---------------------------------
-${2}
+$2
 
 ; Pages ------------------------------------
 ${3:Page instfiles}
@@ -19,7 +19,7 @@ Section "${4:section_name}"
 SectionEnd
 
 ; Functions --------------------------------
-${7}
+$7
 ]]></content>
 	<tabTrigger>scaffold:Minimal Script</tabTrigger>
 	<scope>source.nsis</scope>
