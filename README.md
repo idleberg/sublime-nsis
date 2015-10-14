@@ -93,25 +93,25 @@ Several of the above snippets can set the number of sections in a script or add 
 With Sublime Text's fuzzy search in mind, you could for instance type `scaffBasic` to trigger the `scaffold:Basic Script` snippet and create the following script:
 
 ```nsis
- ; Settings ---------------------------------
- Name "installer_name"
- OutFile "installer_name.exe"
- RequestExecutionLevel user
- InstallDir "$PROGRAMFILES\installer_name"
- 
- ; Pages ------------------------------------
- Page components
- Page directory
- Page instfiles
- 
- ; Sections ---------------------------------
- Section "section_name" section_index
- 
-     # your code here
- 
- SectionEnd
- 
- ; Functions --------------------------------
+; Settings ---------------------------------
+Name "installer_name"
+OutFile "installer_name.exe"
+RequestExecutionLevel user
+InstallDir "$PROGRAMFILES\installer_name"
+
+; Pages ------------------------------------
+Page components
+Page directory
+Page instfiles
+
+; Sections ---------------------------------
+Section "section_name" section_index
+
+    # your code here
+
+SectionEnd
+
+; Functions --------------------------------
 ````
 
 Use `Tab` to jump to the next relevant bit of code you might want to change, `Shift-Tab` to jump back.
@@ -133,7 +133,7 @@ Code snippets start with the prefix `do` followed by the code block you'd like t
 To quickly add a message box with three buttons labeled "Yes", "No" and "Cancel", you could type something like `doync` to trigger the`do:MB_YESNOCANCEL` snippet. This will insert the following line to the current position:
 
 ```nsis
- MessageBox MB_YESNOCANCEL "messagebox_text"
+MessageBox MB_YESNOCANCEL "messagebox_text"
 ```
 
 Use `Tab` to jump between the segments of the code.
@@ -141,20 +141,20 @@ Use `Tab` to jump between the segments of the code.
 To insert a code block of version information commands, you could type `doinf` to trigger the `do:Version Information` snippet. This will insert several lines of code:
 
 ```nsis
- VIProductVersion "0.0.0.0"
- VIFileVersion    "0.0.0.0"
- VIAddVersionKey  "FileDescription"  "description"
- VIAddVersionKey  "FileVersion"      "0.0.0.0"
- VIAddVersionKey  "ProductName"      "product_name"
- VIAddVersionKey  "ProductVersion"   "0.0.0.0"
- VIAddVersionKey  "LegalCopyright"   "copyright"
- VIAddVersionKey  "OriginalFilename" "file_name.exe"
- VIAddVersionKey  "Comments"         "comment"
- VIAddVersionKey  "LegalTrademarks"  "trademark"
- VIAddVersionKey  "CompanyName"      "company_name"
- VIAddVersionKey  "InternalName"     "internal_name"
- VIAddVersionKey  "PrivateBuild"     "private_build"
- VIAddVersionKey  "SpecialBuild"     "special_build"
+VIProductVersion "0.0.0.0"
+VIFileVersion    "0.0.0.0"
+VIAddVersionKey  "FileDescription"  "description"
+VIAddVersionKey  "FileVersion"      "0.0.0.0"
+VIAddVersionKey  "ProductName"      "product_name"
+VIAddVersionKey  "ProductVersion"   "0.0.0.0"
+VIAddVersionKey  "LegalCopyright"   "copyright"
+VIAddVersionKey  "OriginalFilename" "file_name.exe"
+VIAddVersionKey  "Comments"         "comment"
+VIAddVersionKey  "LegalTrademarks"  "trademark"
+VIAddVersionKey  "CompanyName"      "company_name"
+VIAddVersionKey  "InternalName"     "internal_name"
+VIAddVersionKey  "PrivateBuild"     "private_build"
+VIAddVersionKey  "SpecialBuild"     "special_build"
 ```
 
 Again, you can use `Tab` to jump back and forth.
