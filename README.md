@@ -87,6 +87,7 @@ Scaffolding snippets start with the prefix `scaffold` followed by the type of sc
 * nsDialogs MUI2 Script
 * NSIS Language File
 * Translate MUI2 (English, French, or Spanish)
+* Library
 
 Several of the above snippets can set the number of sections in a script or add an init function.
 
