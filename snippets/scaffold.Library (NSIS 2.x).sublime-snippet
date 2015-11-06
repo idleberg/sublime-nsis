@@ -9,8 +9,8 @@
     !define ${1/(.*)/\U\1/}_INCLUDED
 
     ; Includes ---------------------------------
-    ${3:!include Util.nsh}$4
-
+    ${3:!include Util.nsh}
+    $4
     ; Settings ---------------------------------
     !verbose push
     !verbose 3
