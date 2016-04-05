@@ -65,6 +65,7 @@
                 { "trigger": "${NSIS_CHAR_SIZE}", "contents": "\\${NSIS_CHAR_SIZE}" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" },
+                { "trigger": "${NSIS_PTR_SIZE}", "contents": "\\${NSIS_PTR_SIZE}" },
                 { "trigger": "${NSIS_UNICODE}", "contents": "\\${NSIS_UNICODE}" },
                 { "trigger": "${NSIS_VERSION}", "contents": "\\${NSIS_VERSION}" },
 
