@@ -2,6 +2,7 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/NSIS%20Completions%20&%20Snippets.svg?style=flat-square)](https://packagecontrol.io/packages/NSIS%20Completions%20&%20Snippets)
+[![GitHub release](https://img.shields.io/github/release/idleberg/sublime-nsis.svg?style=flat-square)](https://github.com/idleberg/sublime-nsis/releases)
 [![Travis](https://img.shields.io/travis/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-nsis)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
