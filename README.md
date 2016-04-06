@@ -2,12 +2,12 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/NSIS%20Completions%20&%20Snippets.svg?style=flat-square)](https://packagecontrol.io/packages/NSIS%20Completions%20&%20Snippets)
-[![Travis](https://img.shields.io/travis/idleberg/NSIS-Sublime-Text.svg?style=flat-square)](https://travis-ci.org/idleberg/NSIS-Sublime-Text)
+[![Travis](https://img.shields.io/travis/sublime-nsis.svg?style=flat-square)](https://travis-ci.org/sublime-nsis)
 [![Gitter](https://img.shields.io/badge/chat-Gitter-ff69b4.svg?style=flat-square)](https://gitter.im/NSIS-Dev/SublimeText)
 
-[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0b2). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/idleberg/NSIS-Sublime-Text-Addons/).
+[Sublime Text](http://www.sublimetext.com/) completions for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net/)) supporting commands, macros and plugins that are bundled with NSIS v2.46 (and 3.0b2). Also included are snippets for scaffolding different types of empty scripts and to insert code blocks. You can extend these completions for third-party plug-ins using the [add-ons pack](https://github.com/sublime-nsis-plugins/).
 
-![Screenshot](https://raw.github.com/idleberg/NSIS-Sublime-Text/master/screenshot.gif)
+![Screenshot](https://raw.github.com/sublime-nsis/master/screenshot.gif)
 
 *Screenshot of NSIS file in Sublime Text*
 
@@ -63,11 +63,11 @@ There's also a collection of [Sublime Text Packages](https://github.com/NSIS-Dev
 ### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/idleberg/NSIS-Sublime-Text.git 'NSIS Completions & Snippets'`
+2. Clone repository `git clone https://github.com/sublime-nsis.git 'NSIS Completions & Snippets'`
 
 ### Manual installation
 
-1. Download the latest [ZIP file](https://github.com/idleberg/NSIS-Sublime-Text/archive/master.zip)
+1. Download the latest [ZIP file](https://github.com/sublime-nsis/archive/master.zip)
 2. Unzip the archive to your Sublime Text `Packages` directory
 
 ## Usage
@@ -167,4 +167,4 @@ This work is licensed under the [The MIT License](LICENSE).
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/NSIS-Sublime-Text) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/sublime-nsis) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
