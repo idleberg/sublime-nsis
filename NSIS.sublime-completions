@@ -1156,7 +1156,7 @@
                 { "trigger": "${AtMostWinVista}", "contents": "\\${AtMostWinVista}" },
                 { "trigger": "${AtMostWinXP}", "contents": "\\${AtMostWinXP}" },
                 { "trigger": "${IsNT}", "contents": "\\${IsNT}" },
-                { "trigger": "${IsServer}", "contents": "\\${IsServer}" },
+                { "trigger": "${IsServerOS}", "contents": "\\${IsServerOS}" },
                 { "trigger": "${IsServicePack}", "contents": "\\${IsServicePack}" },
                 { "trigger": "${IsWin10}", "contents": "\\${IsWin10}" },
                 { "trigger": "${IsWin2000}", "contents": "\\${IsWin2000}" },
