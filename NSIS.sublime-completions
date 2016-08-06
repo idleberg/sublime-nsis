@@ -169,7 +169,7 @@
                 { "trigger": "HIDDEN or FILE_ATTRIBUTE_HIDDEN", "contents": "HIDDEN" },
                 { "trigger": "HKCR or HKEY_CLASSES_ROOT", "contents": "HKCR" },
                 { "trigger": "HKCU or HKEY_CURRENT_USER", "contents": "HKCU" },
-                { "trigger": "HKDD or HKEY_CURRENT_CONFIG", "contents": "HKDD" },
+                { "trigger": "HKCC or HKEY_CURRENT_CONFIG", "contents": "HKCC" },
                 { "trigger": "HKLM or HKEY_LOCAL_MACHINE", "contents": "HKLM" },
                 { "trigger": "HKDD or HKEY_DYN_DATA", "contents": "HKDD" },
                 { "trigger": "HKPD or HKEY_PERFORMANCE_DATA", "contents": "HKPD" },
