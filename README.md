@@ -37,6 +37,7 @@
     * Modern UI
     * MultiUser
     * Sections
+    * StrFunc
     * WinMessages
     * WinVer
     * WordFunc
