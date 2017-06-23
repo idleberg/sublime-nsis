@@ -43,7 +43,7 @@
                 { "trigger": "!macro", "contents": "!macro ${1:macro_name} ${2:parameter}\n\t${3:# your code here}\n!macroend" },
                 { "trigger": "!macroend", "contents": "!macroend" },
                 { "trigger": "!searchparse", "contents": "!searchparse \"${1:source_string_or_file}\" \"${2:substring_start}\" \"${3:OUTPUTSYMBOL1}\"" },
-                { "trigger": "!searchreplace", "contents": "!searchparse \"${1:symbol_out}\" \"${2:source_string}\" \"${3:searchfor}\" \"${4:replacewith}\"" },
+                { "trigger": "!searchreplace", "contents": "!searchreplace \"${1:symbol_out}\" \"${2:source_string}\" \"${3:searchfor}\" \"${4:replacewith}\"" },
                 { "trigger": "!undef", "contents": "!undef ${1:gflag}" },
 
                 { "#": "Predefines" },
