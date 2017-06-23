@@ -881,7 +881,7 @@
                 { "trigger": "!define:MUI_DIRECTORYPAGE_VERIFYONLEAVE", "contents": "!define MUI_DIRECTORYPAGE_VERIFYONLEAVE" },
                 { "trigger": "!define:MUI_FINISHPAGE_BUTTON", "contents": "!define MUI_FINISHPAGE_BUTTON \"${1:text}\"" },
                 { "trigger": "!define:MUI_FINISHPAGE_CANCEL_ENABLED", "contents": "!define MUI_FINISHPAGE_CANCEL_ENABLED" },
-                { "trigger": "!define:MUI_FINISHPAGE_LINK", "contents": "!define MUI_FINISHPAGE_LINK \"${1:text}\"" },
+                { "trigger": "!define:MUI_FINISHPAGE_LINK", "contents": "!define MUI_FINISHPAGE_LINK \"${1:link_text}\"" },
                 { "trigger": "!define:MUI_FINISHPAGE_LINK_COLOR", "contents": "!define MUI_FINISHPAGE_LINK_COLOR \"${1:RRGGBB}\"" },
                 { "trigger": "!define:MUI_FINISHPAGE_LINK_LOCATION", "contents": "!define MUI_FINISHPAGE_LINK_LOCATION \"${1:file_or_url}\"" },
                 { "trigger": "!define:MUI_FINISHPAGE_NOAUTOCLOSE", "contents": "!define MUI_FINISHPAGE_NOAUTOCLOSE" },
@@ -1071,7 +1071,7 @@
                 { "trigger": "!insertmacro:MUI_UNPAGE_DIRECTORY", "contents": "!insertmacro MUI_UNPAGE_DIRECTORY" },
                 { "trigger": "!insertmacro:MUI_UNPAGE_FINISH", "contents": "!insertmacro MUI_UNPAGE_FINISH" },
                 { "trigger": "!insertmacro:MUI_UNPAGE_INSTFILES", "contents": "!insertmacro MUI_UNPAGE_INSTFILES" },
-                { "trigger": "!insertmacro:MUI_UNPAGE_LICENSE", "contents": "!insertmacro MUI_UNPAGE_LICENSE \"${1:text}\"" },
+                { "trigger": "!insertmacro:MUI_UNPAGE_LICENSE", "contents": "!insertmacro MUI_UNPAGE_LICENSE \"${1:textfile}\"" },
                 { "trigger": "!insertmacro:MUI_UNPAGE_WELCOME", "contents": "!insertmacro MUI_UNPAGE_WELCOME" },
                 { "trigger": "!insertmacro:MUI_WELCOMEFINISHPAGE_CUSTOMFUNCTION_INIT", "contents": "!define MUI_WELCOMEFINISHPAGE_CUSTOMFUNCTION_INIT \"${1:function}\"" },
 
