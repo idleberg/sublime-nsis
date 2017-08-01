@@ -707,6 +707,7 @@
                 { "trigger": "WriteRegDWORD", "contents": "WriteRegDWORD ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
                 { "trigger": "WriteRegExpandStr", "contents": "WriteRegExpandStr ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
                 { "trigger": "WriteRegMultiStr", "contents": "WriteRegMultiStr /REGEDIT5 ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
+                { "trigger": "WriteRegNone", "contents": "WriteRegNone ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:entry_name}\"${5: ${6:hex_data}}" },
                 { "trigger": "WriteRegStr", "contents": "WriteRegStr ${1:root_key} \"${2:subkey}\" \"${3:key_name}\" \"${4:value}\"" },
                 { "trigger": "WriteUninstaller", "contents": "WriteUninstaller \"${1:exename}.exe\"" },
                 { "trigger": "XPStyle off (default)", "contents": "XPStyle off" },
