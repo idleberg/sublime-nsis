@@ -58,9 +58,7 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 
 ### Windows Installer
 
-Assuming that you're already familiar with NSIS, you can build yourself a setup executable to install this package. Download `installer.nsi` from the scripts folder, compile the source and execute the generated file. You can choose which packages you want to install.
-
-There's also a collection of [Sublime Text Packages](https://github.com/NSIS-Dev/Sublime-Text-Packages) available as a Windows installer.
+This package is part of [sublime-nsis-ide](https://github.com/NSIS-Dev/Sublime-Text-Packages), a collection of packages that turn Sublime Text into a powerful editor for NSIS developers.
 
 ### Using Git
 
