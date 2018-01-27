@@ -3,7 +3,7 @@
 ; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
 
 ; Settings ---------------------------------
-OutFile "${1:installer_name}"
+OutFile "${1:installer_name}.exe"
 
 ; Includes ---------------------------------
 $2
