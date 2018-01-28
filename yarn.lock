@@ -1076,9 +1076,9 @@ gulp-util@^3.0.5:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp-xml-validator@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gulp-xml-validator/-/gulp-xml-validator-0.2.1.tgz#5b2171ffa9fc1c14031eb0ce321d2ae267062772"
+gulp-xml-validator@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gulp-xml-validator/-/gulp-xml-validator-0.2.2.tgz#5ab0b8afbe3866e0f7e8cc5ac1222b1584ca88d7"
   dependencies:
     ansi-underline "^0.1.1"
     plugin-error "^1.0.0"
@@ -2523,13 +2523,13 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
 sublime-linter@^0.1.2:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/sublime-linter/-/sublime-linter-0.1.1.tgz#f890829e53cabc3b5b2eb49d0d7ffdc3f266b57b"
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/sublime-linter/-/sublime-linter-0.1.2.tgz#a46e4b7af9325fab5c228c0576ebb20657e4a9ac"
   dependencies:
     gulp "^4.0.0"
     gulp-debug "^3.2.0"
     gulp-jsonlint "^1.1.2"
-    gulp-xml-validator "^0.2.0"
+    gulp-xml-validator "^0.2.2"
     gulp-yaml-validate "^1.0.2"
 
 supports-color@^2.0.0:
