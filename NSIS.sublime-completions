@@ -453,7 +453,7 @@
                 { "trigger": "InstTypeSetText", "contents": "InstTypeSetText ${1:inst_type_idx} \"${2:text}\"" },
                 { "trigger": "Int64Cmp", "contents": "Int64Cmp ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
                 { "trigger": "Int64CmpU", "contents": "Int64CmpU ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
-                { "trigger": "Int64Fmt", "contents": "Int64Fmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"", },
+                { "trigger": "Int64Fmt", "contents": "Int64Fmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
                 { "trigger": "IntCmp", "contents": "IntCmp ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
                 { "trigger": "IntCmpU", "contents": "IntCmpU ${1:val1} ${2:val2} ${3:jump_if_equal} ${4:[jump_if_val1_less]} ${5:[jump_if_val1_more]}" },
                 { "trigger": "IntFmt", "contents": "IntFmt \\$${1:user_var} \"${2:format}\" \"${3:numberstring}\"" },
