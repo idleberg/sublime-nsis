@@ -1189,7 +1189,7 @@
                 { "trigger": "${AtMostWinNT4}", "contents": "\\${AtMostWinNT4}" },
                 { "trigger": "${AtMostWinVista}", "contents": "\\${AtMostWinVista}" },
                 { "trigger": "${AtMostWinXP}", "contents": "\\${AtMostWinXP}" },
-                { "trigger": "${IsController}", "contents": "\\${IsController}" },
+                { "trigger": "${IsDomainController}", "contents": "\\${IsDomainController}" },
                 { "trigger": "${IsNT}", "contents": "\\${IsNT}" },
                 { "trigger": "${IsServerOS}", "contents": "\\${IsServerOS}" },
                 { "trigger": "${IsServicePack}", "contents": "\\${IsServicePack}" },
