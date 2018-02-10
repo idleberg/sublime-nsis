@@ -531,6 +531,8 @@
                 { "trigger": "PageEx uninstConfirm", "contents": "PageEx uninstConfirm\n\t${2:# your code here}\nPageExEnd" },
                 { "trigger": "PageEx", "contents": "PageEx ${1:page_type}\n\t${2:# your code here}\nPageExEnd" },
                 { "trigger": "PageExEnd", "contents": "PageExEnd" },
+                { "trigger": "PEDllCharacteristics", "contents": "PEDllCharacteristics ${1:addbits} ${2:removebits}" },
+                { "trigger": "PESubsysVer", "contents": "PESubsysVer ${1:major}.${2:minor}" },
                 { "trigger": "Pop", "contents": "Pop \\$${1:user_var}" },
                 { "trigger": "Push $var", "contents": "Push \\$${1:user_var}" },
                 { "trigger": "Push", "contents": "Push \"${1:string}\"" },
