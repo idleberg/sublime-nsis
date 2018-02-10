@@ -6,7 +6,7 @@ Package Control:
     https://github.com/SublimeText/NSIS
 
     “NSIS Plug-in Completions”, completions for third-party plug-ins
-    https://github.com/idleberg/NSIS-Sublime-Text-Addons
+    https://github.com/idleberg/sublime-nsis-Addons
 
     “Drunken NSIS”, fuzzy NSIS completions
     https://github.com/idleberg/Drunken-NSIS
