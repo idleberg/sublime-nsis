@@ -1,37 +1,37 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+# Scaffolding by https://github.com/idleberg/sublime-nsis
 
-; Settings ---------------------------------
+# Settings ---------------------------------
 Name "${1:installer_name}"
 OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:admin}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
-; Includes ---------------------------------
+# Includes ---------------------------------
 ReserveFile "\${NSISDIR}\Plugins\InstallOptions.dll"
 ReserveFile "${5:\${NSISDIR\}\Examples\InstallOptions\test}.ini"
 
-; Pages ------------------------------------
+# Pages ------------------------------------
 Page custom "${6:iopage}" "${7:${6:iopage}_validation}" ": ${8:iopage_caption}"
 Page components
 Page directory
 Page instfiles
 
 
-; Sections ---------------------------------
+# Sections ---------------------------------
 Section "${11:section_name}" ${12:section_index}
 
 	${13:# your code here}
 
 SectionEnd
 
-; Functions --------------------------------
+# Functions --------------------------------
 Function .onInit
-  
+
 	InitPluginsDir
 	File "/oname=\$PLUGINSDIR\\${9:ioFile}.ini" "${5}.ini"
-  
+
 FunctionEnd
 
 Function "${6}"

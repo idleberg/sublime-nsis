@@ -1,29 +1,29 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+# Scaffolding by https://github.com/idleberg/sublime-nsis
 
-; Settings ---------------------------------
+# Settings ---------------------------------
 Name "${1:installer_name}"
 OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:admin}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
-; Includes ---------------------------------
+# Includes ---------------------------------
 $5
 
-; Pages ------------------------------------
+# Pages ------------------------------------
 Page components
 Page directory
 Page instfiles
 
-; Sections ---------------------------------
+# Sections ---------------------------------
 Section "${6:section_name}" ${7:${6/(.*)/\L\1/}_index}
 
 	${8:# your code here}
 
 SectionEnd
 
-; Functions --------------------------------
+# Functions --------------------------------
 $9
 ]]></content>
 	<tabTrigger>scaffold:Basic Script</tabTrigger>

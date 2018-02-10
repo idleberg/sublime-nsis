@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+# Scaffolding by https://github.com/idleberg/sublime-nsis
 
 !define libName "${1:library_name}"
 !define funcName "${2:function_name}"
@@ -8,23 +8,23 @@
 !ifndef ${1/(.*)/\U\1/}_INCLUDED
     !define ${1/(.*)/\U\1/}_INCLUDED
 
-    ; Includes ---------------------------------
+    # Includes ---------------------------------
     ${3:!include Util.nsh}
     $4
-    ; Settings ---------------------------------
+    # Settings ---------------------------------
     !verbose push 3
     !define /ifndef _${1/(.*)/\U\1/}_VERBOSE 3
     !verbose ${_${1/(.*)/\U\1/}_VERBOSE
     !define ${1/(.*)/\U\1/}_VERBOSE `!insertmacro ${1/(.*)/\U\1/}_VERBOSE`
 
-    ; Macros -----------------------------------
+    # Macros -----------------------------------
     !macro ${1/(.*)/\U\1/}_VERBOSE _VERBOSE
         !verbose push 3
         !define /redef _${1/(.*)/\U\1/}_VERBOSE ${_VERBOSE}
         !verbose pop
     !macroend
 
-    ; Functions --------------------------------
+    # Functions --------------------------------
     !macro ${2:funcName}Call ${5:_PARAM} ${6:_RESULT}
         !verbose push
         !verbose \$\{_${1/(.*)/\U\1/}_VERBOSE\}
@@ -46,7 +46,7 @@
     !macro ${2:funcName}_
         !verbose push
         !verbose ${_${1/(.*)/\U\1/}_VERBOSE
-        
+
         ${7:# your code}
 
         !verbose pop

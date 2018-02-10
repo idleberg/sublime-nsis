@@ -1,24 +1,24 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+# Scaffolding by https://github.com/idleberg/sublime-nsis
 
-; Settings ---------------------------------
+# Settings ---------------------------------
 OutFile "${1:installer_name}.exe"
 
-; Includes ---------------------------------
+# Includes ---------------------------------
 $2
 
-; Pages ------------------------------------
+# Pages ------------------------------------
 ${3:Page instfiles}
 
-; Sections ---------------------------------
+# Sections ---------------------------------
 Section "${4:section_name}"
 
 	${5:# your code here}
 
 SectionEnd
 
-; Functions --------------------------------
+# Functions --------------------------------
 $7
 ]]></content>
 	<tabTrigger>scaffold:Minimal Script</tabTrigger>

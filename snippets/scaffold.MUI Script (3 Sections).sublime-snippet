@@ -1,25 +1,25 @@
 <snippet>
 	<content><![CDATA[
-; Scaffolding by https://github.com/idleberg/NSIS-Sublime-Text
+# Scaffolding by https://github.com/idleberg/sublime-nsis
 
-; Includes ---------------------------------
+# Includes ---------------------------------
 !include MUI2.nsh
 
-; Settings ---------------------------------
+# Settings ---------------------------------
 Name "${1:installer_name}"
 OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:admin}
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
-; Pages ------------------------------------
-!insertmacro MUI_PAGE_COMPONENTS 
+# Pages ------------------------------------
+!insertmacro MUI_PAGE_COMPONENTS
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 
-; Languages --------------------------------
+# Languages --------------------------------
 !insertmacro MUI_LANGUAGE "${5:English}"
 
-; Sections ---------------------------------
+# Sections ---------------------------------
 Section "${6:section1}" ${7:${6/(.*)/\U\1/}_INDEX}
 
 	${8:# your code here}
@@ -38,7 +38,7 @@ Section "${12:section3}" ${13:${12/(.*)/\U\1/}_INDEX}
 
 SectionEnd
 
-; Descriptions -----------------------------
+# Descriptions -----------------------------
 LangString DESC_${7} \${LANG_${5/(.*)/\U\1/}} "${15:section1_description}"
 LangString DESC_${10} \${LANG_${5/(.*)/\U\1/}} "${16:section2_description}"
 LangString DESC_${13} \${LANG_${5/(.*)/\U\1/}} "${17:section3_description}"
@@ -49,7 +49,7 @@ LangString DESC_${13} \${LANG_${5/(.*)/\U\1/}} "${17:section3_description}"
 	!insertmacro MUI_DESCRIPTION_TEXT \${${13}} \$(DESC_${13})
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
-; Functions --------------------------------
+# Functions --------------------------------
 $18
 ]]></content>
 	<tabTrigger>scaffold:ModernUI (3 Sections)</tabTrigger>
