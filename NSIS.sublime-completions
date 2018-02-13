@@ -558,7 +558,7 @@
                 { "trigger": "RMDir /REBOOTOK", "contents": "RMDir /REBOOTOK \"${1:directory_name}\"" },
                 { "trigger": "RMDir", "contents": "RMDir \"${1:directory_name}\"" },
                 { "trigger": "SearchPath", "contents": "SearchPath \\$${1:user_var} \"${2:filename}\"" },
-                { "trigger": "Section", "contents": "Section \"${1:section_name}\" ${2:section_index_output}\n\t${3:# your code here}\nSectionEnd" },
+                { "trigger": "Section", "contents": "Section $1\"${2:section_name}\" ${3:section_index_output}\n\t${4:# your code here}\nSectionEnd" },
                 { "trigger": "Section Uninstall", "contents": "Section \"Uninstall\"\n\t${1:# your code here}\nSectionEnd" },
                 { "trigger": "SectionEnd", "contents": "SectionEnd" },
                 { "trigger": "SectionGetFlags", "contents": "SectionGetFlags \\${${1:section_index}} \\$${2:user_var}" },
