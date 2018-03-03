@@ -63,7 +63,6 @@
                 { "trigger": "${__TIMESTAMP__}", "contents": "\\${__TIMESTAMP__}" },
                 { "trigger": "${__UNINSTALL__}", "contents": "\\${__UNINSTALL__}" },
                 { "trigger": "${_NSIS_DEFAW}", "contents": "\\${_NSIS_DEFAW}" },
-                { "trigger": "${envVarName}", "contents": "\\$%envVarName%" },
                 { "trigger": "${NSIS_CHAR_SIZE}", "contents": "\\${NSIS_CHAR_SIZE}" },
                 { "trigger": "${NSIS_MAX_STRLEN}", "contents": "\\${NSIS_MAX_STRLEN}" },
                 { "trigger": "${NSIS_PACKEDVERSION}", "contents": "\\${NSIS_PACKEDVERSION}" },
@@ -1226,7 +1225,7 @@
 
                 { "#": "BgImage.dll" },
                 { "trigger": "BgImage::AddImage", "contents": "BgImage::AddImage \"${1:file}.bmp\" ${2:x} ${3:y}" },
-                { "trigger": "BgImage::AddText", "contents": "BgImage::AddText \"${1:text}\" \"${2:font}\" ${3:R} ${4:G} ${5:B} ${6:x} ${7:x}" },
+                { "trigger": "BgImage::AddText", "contents": "BgImage::AddText \"${1:text}\" \"${2:font}\" ${3:R} ${4:G} ${5:B} ${6:x} ${7:y}" },
                 { "trigger": "BgImage::Clear", "contents": "BgImage::Clear" },
                 { "trigger": "BgImage::Destroy", "contents": "BgImage::Destroy" },
                 { "trigger": "BgImage::Redraw", "contents": "BgImage::Redraw" },
@@ -1338,7 +1337,7 @@
                 { "trigger": "nsExec::ExecToLog /OEM", "contents": "nsExec::ExecToLog /OEM \"${1:command}\"" },
                 { "trigger": "nsExec::ExecToLog /TIMEOUT", "contents": "nsExec::ExecToLog /TIMEOUT=${1:time_in_ms} \"${2:command}\"" },
                 { "trigger": "nsExec::ExecToLog", "contents": "nsExec::ExecToLog \"${1:command}\"" },
-                { "trigger": "nsExec::ExecToStack /OEM", "contents": "nsExec::ExecToStack /OEM\"${1:command}\"" },
+                { "trigger": "nsExec::ExecToStack /OEM", "contents": "nsExec::ExecToStack /OEM \"${1:command}\"" },
                 { "trigger": "nsExec::ExecToStack /TIMEOUT", "contents": "nsExec::ExecToStack /TIMEOUT=${1:time_in_ms} \"${2:command}\"" },
                 { "trigger": "nsExec::ExecToStack", "contents": "nsExec::ExecToStack \"${1:command}\"" },
 
