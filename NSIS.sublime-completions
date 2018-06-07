@@ -1212,6 +1212,9 @@
                 { "#": "x64.nsh" },
                 { "trigger": "${DisableX64FSRedirection}", "contents": "\\${DisableX64FSRedirection}" },
                 { "trigger": "${EnableX64FSRedirection}", "contents": "\\${EnableX64FSRedirection}" },
+                { "trigger": "${IsNativeProcessorArchitectureAMD64}", "contents": "\\${IsNativeProcessorArchitectureAMD64}" },
+                { "trigger": "${IsNativeProcessorArchitectureARM64}", "contents": "\\${IsNativeProcessorArchitectureARM64}" },
+                { "trigger": "${IsNativeProcessorArchitectureIA32}", "contents": "\\${IsNativeProcessorArchitectureIA32}" },
                 { "trigger": "${IsWow64}", "contents": "\\${IsWow64}" },
                 { "trigger": "${RunningX64}", "contents": "\\${RunningX64}" },
 
