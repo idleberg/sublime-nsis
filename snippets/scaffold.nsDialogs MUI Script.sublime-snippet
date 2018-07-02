@@ -3,9 +3,9 @@
 # Scaffolding by https://github.com/idleberg/sublime-nsis
 
 # Includes ---------------------------------
-!include nsDialogs.nsh
-!include LogicLib.nsh
-!include MUI2.nsh
+!include "nsDialogs.nsh"
+!include "LogicLib.nsh"
+!include "MUI2.nsh"
 
 # Settings ---------------------------------
 Name "${1:installer_name}"
