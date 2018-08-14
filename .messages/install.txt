@@ -6,10 +6,10 @@ Package Control:
     https://github.com/SublimeText/NSIS
 
     “NSIS Plug-in Completions”, completions for third-party plug-ins
-    https://github.com/idleberg/sublime-nsis-Addons
+    https://github.com/idleberg/sublime-nsis-plugins
 
     “Drunken NSIS”, fuzzy NSIS completions
-    https://github.com/idleberg/Drunken-NSIS
+    https://github.com/idleberg/sublime-drunken-nsis
 
     “NSIS for Translators”, syntax highlighter for NSIS Language Files (.nlf)
-    https://github.com/idleberg/NSIS-Language-File-Sublime-Text
+    https://github.com/idleberg/sublime-nlf
