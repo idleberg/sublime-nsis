@@ -6,6 +6,7 @@
 Name "${1:installer_name}"
 OutFile "${2:${1}}.exe"
 RequestExecutionLevel ${3:admin}
+Unicode true
 InstallDir "\$PROGRAMFILES\\${4:${1}}"
 
 # Includes ---------------------------------
