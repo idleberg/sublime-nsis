@@ -13,7 +13,7 @@
 *Screenshot of NSIS file in Sublime Text*
 
 ### Features
-* all inbuilt NSIS commands, variables, defines and constants
+* all built-in NSIS commands, variables, defines and constants
 * Plugins:
     * AdvSplash
     * Banner
